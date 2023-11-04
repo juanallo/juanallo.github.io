@@ -2,25 +2,25 @@
 import type {
   FrontmatterPage,
   IFrontmatter,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 import {
   BlogGallery,
   NewerOlderPagination,
   PaginationHeader,
   Section,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
-import { CTA } from '@/partials/CTA';
-import Base from '@/templates/Base.astro';
-import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
+import { CTA } from "@/partials/CTA";
+import Base from "@/templates/Base.astro";
+import { AppConfig } from "@/utils/AppConfig";
+import { sortByDate } from "@/utils/Posts";
 
 type GetStaticPaths = {
   paginate: any;
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
+  const allPosts = await Astro.glob<IFrontmatter>("./*.md");
   const sortedPosts = sortByDate(allPosts);
 
   // Return a paginated collection of paths for all posts
@@ -35,16 +35,12 @@ const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
 const titleBase = `Blog page ${page.currentPage}`;
 const title = titleBase + titleSuffix;
-const description =
-  'Pagination example built with Astro styled with Tailwind CSS.';
+const description = "Blog posts by Juan Manuel Allo Ron";
 ---
 
 <Base head={{ title, description }}>
   <Section>
-    <PaginationHeader
-      title='Random title here'
-      description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    />
+    <PaginationHeader title="All Blog Posts" description="Check the latest posts" />
   </Section>
 
   <Section>
@@ -55,5 +51,5 @@ const description =
     <NewerOlderPagination page={page} />
   </Section>
 
-  <CTA />
+  <!-- <CTA /> -->
 </Base>
