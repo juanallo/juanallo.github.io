@@ -1,0 +1,7 @@
+.highlight {
+  @apply bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent;
+}
+
+summary, .text-highlight {
+  color: #22d3ee;
+}

@@ -1,0 +1,44 @@
+---
+import { AppConfig } from "@/utils/AppConfig";
+
+export interface Props {
+  content: {
+    title: string;
+    description: string;
+    canonical?: string;
+    noindex?: boolean;
+    url?: string;
+    imgSrc?: string;
+    pubDate: string;
+  };
+}
+
+const {
+  content: { title, description, imgSrc, pubDate },
+} = Astro.props as Props;
+
+const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : `${AppConfig.base_path}assets/images/avatar.png`
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "image": image,
+  "description": description,
+  // "keywords": tags.join(' '),
+  "author": {
+    "@type": "Person",
+    "name": AppConfig.author
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://google.com/article"
+  },
+};
+
+if(pubDate) {
+    schema['datePublished'] = pubDate
+  }
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

@@ -1,10 +1,11 @@
 ---
-import type { IFrontmatter } from 'astro-boilerplate-components';
+import type { IFrontmatter } from "astro-boilerplate-components";
+import "./base.css";
 
-import { BlogPost } from '@/partials/BlogPost';
-import { CTA } from '@/partials/CTA';
-import Base from '@/templates/Base.astro';
-import { AppConfig } from '@/utils/AppConfig';
+import { BlogPost } from "@/partials/BlogPost";
+import Base from "@/templates/Base.astro";
+import { AppConfig } from "@/utils/AppConfig";
+import JSONLD from "@/partials/JSONLD.astro";
 
 export interface Props {
   content: IFrontmatter;
@@ -14,7 +15,8 @@ const { content } = Astro.props as Props;
 const title = `${content.title} - ${AppConfig.site_name}`;
 ---
 
-<Base head={{ title, description: content.description }}>
+<Base head={{ ...content, title }}>
+  <JSONLD content={content} />
   <BlogPost frontmatter={content}>
     <slot></slot>
   </BlogPost>

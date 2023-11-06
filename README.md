@@ -1,76 +1,14 @@
-# Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Juan Manuel Allo Ron's Blog
 
-🚀 Astro Boilerplate is starter code for your blog or portfolio based on Astro
-with Tailwind CSS 3.0. ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
-Tailwind CSS.
+I am a Staff+ Software Engineer building engaging user experiences and always learning! Passionate about web performance, React, and software architecture. I love everything web and beyond, and I'm always exploring new technologies and techniques. Follow my blog for tales of design, development, and innovation
 
-Clone this project and use it to create your own Astro blog. You can check the
-[Astro templates demo](https://creativedesignsguru.com/demo/astro-boilerplate/).
+This is my personal blog source code. Check [my blog](https://juanmanuelalloron.com/)
 
-## Features
-
-A complete Blog feature:
-
-- 🎈 Syntax Highlighting
-- 🤖 SEO friendly with sitemap.xml and robots.txt
-- ⚙️ RSS feed
-- 📖 Pagination
-- 🌈 Include a dark blog theme
-- ⬇️ Markdown
-- 📦 Image lazy loading
-- 💎 Responsive design
-
-Developer experience first:
-
-- 🔥 Astro
-- 🎨 Tailwind CSS with aspect ratio and typography plugin
-- 🎉 TypeScript
-- ✏️ ESLint compatible with .astro files
-- 🛠 Prettier compatible with .astro files
-- 🦊 Husky
-- 🚫 lint-staged
-- 🚨 Commitlint
-- 🔧 One-click deploy on Netlify (or, manual if you prefer)
-
-ESLint with:
-
-- Airbnb styled guide
-- TypeScript compatible
-- Astro compatible
-- Automatically remove unused imports
-- Import sorting
-- Tailwind CSS plugin
-
-### Philosophy
-
-- Minimal code
-- SEO-friendly
-- 🚀 Production-ready
-
-### Requirements
-
-- Node.js and npm
-
-#### Optional
-
-- [nvm](https://github.com/nvm-sh/nvm)
-- [volta](https://volta.sh/)
-
-While Astro-boilerplate should work with the latest Node version, it has been
-tested with the versions in .nvmrc & the bottom of package.json. At current
-writing, that's Node v16.15.1
+## Development
 
 ### Getting started
 
 Run the following command on your local environment:
-
-``` bash
-git clone --depth=1 https://github.com/ixartz/Astro-boilerplate
-cd my-project-name
-npm install
-```
-
-Then, you can run locally in development mode with live reload:
 
 ``` bash
 npm run dev
@@ -91,12 +29,6 @@ Now, your blog is ready to be deployed. All generated files are located at
 `dist` folder, which you can deploy the folder to any hosting service you
 prefer.
 
-### Deploy to Netlify
-
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Astro-boilerplate)
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -110,21 +42,30 @@ All commands are run from the root of the project, from a terminal:
 | `npm run clean`   | Remove `./dist` folder                       |
 | `npm run lint`    | Run ESLint and report styling error          |
 
-### Contributions
+## TODO
 
-Everyone is welcome to contribute to this project.
-Feel free to open an issue if you have question or found a bug.
+[x] Highlight summary on details 
+[x] Highlight links
+[x] ADD SEO meta tags
+[x] Add structured content
+[x] Support for OG
+[x] Add sitemap generator
+[] Add Recommended Posts
+[] Support for tags in the blog posts
+[] Export and import posts from wordpress
+[] Improve the logo 
+[] Add a proper favicon
+- Alpha
+[] Integrate with google analytics
+[] Publish to github pages
+[] Add permanent redirects for old URLS
+[] Check performance
+[] Switch juanmanuelalloron.com domain to github pages
+[] Test OG support
+- Release
+[] Infer reading time
+[] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
+[] 
+[] Add subscribe to newsletter
+[] Github actions to publish to twitter, linkedin, pinterest, 
 
-### Additional Checks
-
-This README.md was linted with
-[markdownlint](https://github.com/igorshubovych/markdownlint-cli)
-
-### License
-
-Licensed under the MIT License, Copyright © 2022
-
----
-
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)

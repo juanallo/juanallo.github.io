@@ -11,7 +11,7 @@ const Navbar = () => (
     <NavbarTwoColumns>
       <a href="/">
         <Logo
-          icon={<img src="/jar.gif" alt="Logo" className="pr-2" />}
+          icon={<img src="/jar.gif" alt="Logo" className="pr-2" width={60} />}
           name="Juan Manuel Allo Ron"
         />
       </a>
