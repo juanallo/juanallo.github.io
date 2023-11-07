@@ -1,11 +1,12 @@
 ---
-import type { IFrontmatter } from "astro-boilerplate-components";
-import "./base.css";
+import './base.css';
 
-import { BlogPost } from "@/partials/BlogPost";
-import Base from "@/templates/Base.astro";
-import { AppConfig } from "@/utils/AppConfig";
-import JSONLD from "@/partials/JSONLD.astro";
+import type { IFrontmatter } from 'astro-boilerplate-components';
+
+import { BlogPost } from '@/partials/BlogPost';
+import JSONLD from '@/partials/JSONLD.astro';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
 
 export interface Props {
   content: IFrontmatter;

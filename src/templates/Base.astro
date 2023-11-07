@@ -1,8 +1,10 @@
 ---
+import "./base.css";
+
 import { Footer } from "@/partials/Footer";
 import { Navbar } from "@/partials/Navbar";
 import { AppConfig } from "@/utils/AppConfig";
-import "./base.css";
+import avatar from "@/images/avatar.png";
 
 export interface Props {
   head: {
@@ -31,9 +33,7 @@ const {
 } = Astro.props as Props;
 
 const path = url ? `${AppConfig.base_path}${url}` : `${AppConfig.base_path}/`;
-const image = imgSrc
-  ? `${AppConfig.base_path}${imgSrc}`
-  : `${AppConfig.base_path}assets/images/avatar.png`;
+const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : avatar.src;
 ---
 
 <html lang="en">
@@ -41,6 +41,7 @@ const image = imgSrc
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+    <meta name="theme-color" content="#111827" />
     <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
     <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
     <link rel="apple-touch-icon" href="/favicon.jpg" />

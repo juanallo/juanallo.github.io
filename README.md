@@ -53,8 +53,9 @@ All commands are run from the root of the project, from a terminal:
 [] Add Recommended Posts
 [] Support for tags in the blog posts
 [] Export and import posts from wordpress
-[] Improve the logo 
-[] Add a proper favicon
+[] Support for drafts
+[x] Improve the logo 
+[x] Add a proper favicon
 - Alpha
 [] Integrate with google analytics
 [] Publish to github pages

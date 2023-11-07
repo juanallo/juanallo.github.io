@@ -1,10 +1,10 @@
 import type { MarkdownInstance } from 'astro';
 import type { IFrontmatter } from 'astro-boilerplate-components';
 import {
-  BlogGallery,
   GradientText,
   Section,
 } from 'astro-boilerplate-components';
+import { BlogGallery } from './BlogGallery';
 
 type IRecentPostsProps = {
   postList: MarkdownInstance<IFrontmatter>[];
@@ -24,7 +24,12 @@ const RecentPosts = (props: IRecentPostsProps) => (
       </div>
     }
   >
-    <BlogGallery postList={props.postList} />
+    <>
+      <BlogGallery postList={props.postList} />
+      <div className="text-md pt-8 text-center">
+        <a href="/posts/">View all Posts →</a>
+      </div>
+    </>
   </Section>
 );
 

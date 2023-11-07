@@ -2,29 +2,28 @@
 import type {
   FrontmatterPage,
   IFrontmatter,
-} from "astro-boilerplate-components";
+} from 'astro-boilerplate-components';
 import {
-  BlogGallery,
   NewerOlderPagination,
   PaginationHeader,
   Section,
-} from "astro-boilerplate-components";
+} from 'astro-boilerplate-components';
 
-import { CTA } from "@/partials/CTA";
-import Base from "@/templates/Base.astro";
-import { AppConfig } from "@/utils/AppConfig";
-import { sortByDate } from "@/utils/Posts";
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByDate } from '@/utils/Posts';
+import { BlogGallery } from '@/partials/BlogGallery';
 
 type GetStaticPaths = {
   paginate: any;
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>("./*.md");
-  const sortedPosts = sortByDate(allPosts);
+  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
+  const sortedPosts = sortByDate(allPosts.filter((p) => !p.frontmatter.draft));
 
   // Return a paginated collection of paths for all posts
-  return paginate(sortedPosts, { pageSize: 6 });
+  return paginate(sortedPosts, { pageSize: 12 });
 }
 
 interface Props {
@@ -35,12 +34,15 @@ const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
 const titleBase = `Blog page ${page.currentPage}`;
 const title = titleBase + titleSuffix;
-const description = "Blog posts by Juan Manuel Allo Ron";
+const description = 'Blog posts by Juan Manuel Allo Ron';
 ---
 
 <Base head={{ title, description }}>
   <Section>
-    <PaginationHeader title="All Blog Posts" description="Check the latest posts" />
+    <PaginationHeader
+      title='All Blog Posts'
+      description='Check the latest posts'
+    />
   </Section>
 
   <Section>

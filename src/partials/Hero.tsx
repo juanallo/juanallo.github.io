@@ -5,6 +5,10 @@ import {
   Section,
 } from "astro-boilerplate-components";
 
+import avatar from "@/images/avatar.png";
+import linkedinIcon from "@/images/linkedin-icon.png";
+import twitterIcon from "@/images/twitter-icon.png";
+
 const Hero = () => (
   <Section>
     <HeroAvatar
@@ -32,18 +36,16 @@ const Hero = () => (
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.png"
-          alt="Avatar image"
-          loading="lazy"
+          src={avatar.src}
+          alt=""
+          width={avatar.width}
+          height={avatar.height}
         />
       }
       socialButtons={
         <>
           <a href="https://github.com/juanallo" target="_blank">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
+            <HeroSocial src={twitterIcon.src} alt="Twitter icon" />
           </a>
           {/* <a href="/">
             <HeroSocial
@@ -55,10 +57,7 @@ const Hero = () => (
             href="https://www.linkedin.com/in/juanmanuelalloron/"
             target="_blank"
           >
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
+            <HeroSocial src={linkedinIcon.src} alt="Linkedin icon" />
           </a>
           {/* <a href="/" target="_blank">
             <HeroSocial

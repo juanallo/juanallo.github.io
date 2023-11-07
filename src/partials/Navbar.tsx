@@ -4,14 +4,22 @@ import {
   NavMenu,
   NavMenuItem,
   Section,
-} from "astro-boilerplate-components";
+} from 'astro-boilerplate-components';
 
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
       <a href="/">
         <Logo
-          icon={<img src="/jar.gif" alt="Logo" className="pr-2" width={60} />}
+          icon={
+            <img
+              src="/jar.gif"
+              alt="Logo"
+              className="pr-2"
+              width="60px"
+              height="35px"
+            />
+          }
           name="Juan Manuel Allo Ron"
         />
       </a>

@@ -1,8 +1,8 @@
-import { Section } from "astro-boilerplate-components";
+import { Section } from 'astro-boilerplate-components';
 
-import { AppConfig } from "@/utils/AppConfig";
+import { AppConfig } from '@/utils/AppConfig';
 
-import Fill from "./Fill";
+import Fill from './Fill';
 
 const Footer = () => (
   <>

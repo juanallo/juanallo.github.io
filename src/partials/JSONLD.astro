@@ -1,5 +1,6 @@
 ---
 import { AppConfig } from "@/utils/AppConfig";
+import avatar from "@/images/avatar.png";
 
 export interface Props {
   content: {
@@ -17,28 +18,30 @@ const {
   content: { title, description, imgSrc, pubDate },
 } = Astro.props as Props;
 
-const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : `${AppConfig.base_path}assets/images/avatar.png`
+const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : avatar.src;
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": title,
-  "image": image,
-  "description": description,
+  headline: title,
+  image,
+  description,
   // "keywords": tags.join(' '),
-  "author": {
+  author: {
     "@type": "Person",
-    "name": AppConfig.author
+    name: AppConfig.author,
   },
-  "mainEntityOfPage": {
+  mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://google.com/article"
+    "@id": "https://google.com/article",
   },
 };
 
-if(pubDate) {
-    schema['datePublished'] = pubDate
-  }
+if (pubDate) {
+  schema.datePublished = pubDate;
+}
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<script type="application/ld+json" set:html={JSON.stringify(schema)}>
+
+</script>
