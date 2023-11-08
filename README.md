@@ -51,7 +51,10 @@ All commands are run from the root of the project, from a terminal:
 [x] Support for OG
 [x] Add sitemap generator
 [x] Add Recommended Posts
-[] Support for tags in the blog posts
+[x] Support for tags in the blog posts
+  [x] Add tags in post
+  [x] Tags page
+  [x] Link tags to tags page
 [x] Export and import posts from wordpress
 [x] Support for drafts
 [x] Improve the logo 

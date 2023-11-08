@@ -1,0 +1,49 @@
+---
+import {
+  NewerOlderPagination,
+  PaginationHeader,
+  Section,
+} from "astro-boilerplate-components";
+
+import Base from "@/templates/Base.astro";
+import { AppConfig } from "@/utils/AppConfig";
+import { getPublished } from "@/utils/Posts";
+import { BlogGallery } from "@/partials/BlogGallery";
+import { getAllTagsFromPosts, slugify } from "@/utils/tags";
+
+type GetStaticPaths = {
+  paginate: any;
+}; // Overrides `GetStaticPathsOptions` types from Astro
+
+export async function getStaticPaths({ paginate }: GetStaticPaths) {
+  const postTags = getAllTagsFromPosts(await getPublished());
+  // Return a paginated collection of paths for all posts
+  return postTags.map((tag) => {
+    return { params: { tag: slugify(tag) }, props: { tag } };
+  });
+}
+
+const { tag } = Astro.props;
+const titleSuffix = ` - ${AppConfig.site_name}`;
+const prefix = `${tag} posts`;
+const title = `${tag} posts${titleSuffix}`;
+const description = `${tag} posts by Juan Manuel Allo Ron`;
+
+const posts = (await getPublished()).filter((post) => {
+  return (
+    post.data.tags && post.data.tags.toLowerCase().includes(tag.toLowerCase())
+  );
+});
+---
+
+<Base head={{ title, description }}>
+  <Section>
+    <PaginationHeader title={prefix} description={description} />
+  </Section>
+
+  <Section>
+    <BlogGallery postList={posts} />
+  </Section>
+
+  <!-- <CTA /> -->
+</Base>

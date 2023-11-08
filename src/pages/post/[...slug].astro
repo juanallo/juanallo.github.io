@@ -1,11 +1,10 @@
 ---
-import { getCollection } from "astro:content";
 import { BlogPost } from "@/partials/BlogPost";
 import JSONLD from "@/partials/JSONLD.astro";
 import Base from "@/templates/Base.astro";
 import { AppConfig } from "@/utils/AppConfig";
 import { getPublished } from "@/utils/Posts";
-import similarItems from "@/utils/similar";
+import findSimilarPosts from "@/utils/similar";
 import Similar from "@/partials/Similar.astro";
 
 // 1. Generate a new path for every collection entry
@@ -24,7 +23,7 @@ const { Content } = await entry.render();
 const title = `${entry.data.title} - ${AppConfig.site_name}`;
 const blogEntries = await getPublished();
 
-const similar = similarItems(entry, blogEntries);
+const similar = findSimilarPosts(entry, blogEntries);
 const showSimilar = similar.length > 0;
 ---
 
