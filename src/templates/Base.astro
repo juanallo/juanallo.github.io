@@ -6,19 +6,6 @@ import { Navbar } from "@/partials/Navbar";
 import { AppConfig } from "@/utils/AppConfig";
 import avatar from "@/images/avatar.png";
 
-export interface Props {
-  head: {
-    title: string;
-    description: string;
-    canonical?: string;
-    noindex?: boolean;
-    url?: string;
-    imgSrc?: string;
-    imgAlt?: string;
-    pubDate?: string;
-  };
-}
-
 const {
   head: {
     title,
@@ -26,14 +13,14 @@ const {
     canonical,
     noindex,
     url,
-    imgSrc,
+    image,
     imgAlt,
     pubDate,
   },
-} = Astro.props as Props;
+} = Astro.props
 
 const path = url ? `${AppConfig.base_path}${url}` : `${AppConfig.base_path}/`;
-const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : avatar.src;
+const finalImage = image ? image.src : avatar.src;
 ---
 
 <html lang="en">
@@ -57,7 +44,7 @@ const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : avatar.src;
     <meta property="og:type" content="website" />
     <meta property="og:url" content={path} />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:image" content={image} />
+    <meta property="og:image" content={finalImage} />
     {imgAlt && <meta property="og:image:alt" content={imgAlt} />}
 
     <meta name="twitter:text:title" content={title} />
@@ -76,6 +63,8 @@ const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : avatar.src;
 
     <slot></slot>
 
-    <Footer />
+    <div class='mt-8 w-full'>
+      <Footer />
+    </div>
   </body>
 </html>

@@ -1,12 +1,15 @@
-import type {
-  IFrontmatter,
-  MarkdownInstance,
-} from 'astro-boilerplate-components';
+import { getCollection } from 'astro:content';
 
-export const sortByDate = (posts: MarkdownInstance<IFrontmatter>[]) => {
+export const sortByDate = (posts: any) => {
   return posts.sort(
     (a, b) =>
-      new Date(b.frontmatter.pubDate).valueOf() -
-      new Date(a.frontmatter.pubDate).valueOf()
+      new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
   );
+};
+
+export const getPublished = async () => {
+  const allPosts = await getCollection('posts');
+  const sortedPosts = sortByDate(allPosts.filter((p) => !p.data.draft));
+
+  return sortedPosts;
 };

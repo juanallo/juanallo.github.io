@@ -1,15 +1,12 @@
 ---
-import type { IFrontmatter } from 'astro-boilerplate-components';
-
 import { Hero } from '@/partials/Hero';
 // import { ProjectList } from '@/partials/ProjectList';
 import { RecentPosts } from '@/partials/RecentPosts';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
+import { getPublished } from '@/utils/Posts';
 
-const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
-const sortedPosts = sortByDate(allPosts.filter((p) => !p.frontmatter.draft));
+const sortedPosts = await getPublished()
 const latest = sortedPosts.slice(0, 12);
 
 const { title } = AppConfig;

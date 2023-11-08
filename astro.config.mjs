@@ -8,6 +8,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeClassNames from "rehype-class-names";
 import rehypeExternalLinks from "rehype-external-links";
+// import remarkAttr from "remark-attr";
 import { AppConfig } from "./src/utils/AppConfig";
 
 // https://astro.build/config
@@ -24,7 +25,7 @@ export default defineConfig({
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: "wrap" }],
-      [rehypeClassNames, { "p a": "highlight"}],
+      [rehypeClassNames, { "p a, li a": "highlight", img: "mdImage" }],
       [rehypeExternalLinks, { rel: ["nofollow noopener noreferrer"] }],
     ],
   },

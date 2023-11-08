@@ -44,12 +44,12 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="https://github.com/juanallo" target="_blank">
+          <a href="https://twitter.com/juan_allo" target="_blank">
             <HeroSocial src={twitterIcon.src} alt="Twitter icon" />
           </a>
           {/* <a href="/">
             <HeroSocial
-              src="/assets/images/facebook-icon.png"
+              src="../images/facebook-icon.png"
               alt="Facebook icon"
             />
           </a> */}
@@ -61,7 +61,7 @@ const Hero = () => (
           </a>
           {/* <a href="/" target="_blank">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
+              src="../images/youtube-icon.png"
               alt="Youtube icon"
             />
           </a> */}

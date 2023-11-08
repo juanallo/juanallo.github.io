@@ -52,8 +52,8 @@ All commands are run from the root of the project, from a terminal:
 [x] Add sitemap generator
 [] Add Recommended Posts
 [] Support for tags in the blog posts
-[] Export and import posts from wordpress
-[] Support for drafts
+[x] Export and import posts from wordpress
+[x] Support for drafts
 [x] Improve the logo 
 [x] Add a proper favicon
 - Alpha
@@ -63,10 +63,15 @@ All commands are run from the root of the project, from a terminal:
 [] Check performance
 [] Switch juanmanuelalloron.com domain to github pages
 [] Test OG support
+[] Add share support (look for plugins)
+
 - Release
 [] Infer reading time
 [] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
-[] 
 [] Add subscribe to newsletter
 [] Github actions to publish to twitter, linkedin, pinterest, 
 
+## Incomplete blog posts:
+
+[] javascript-as-promised
+[] partial-application-made-easy-with-es6

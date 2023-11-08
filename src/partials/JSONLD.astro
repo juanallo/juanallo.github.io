@@ -2,29 +2,17 @@
 import { AppConfig } from "@/utils/AppConfig";
 import avatar from "@/images/avatar.png";
 
-export interface Props {
-  content: {
-    title: string;
-    description: string;
-    canonical?: string;
-    noindex?: boolean;
-    url?: string;
-    imgSrc?: string;
-    pubDate: string;
-  };
-}
-
 const {
-  content: { title, description, imgSrc, pubDate },
-} = Astro.props as Props;
+  data: { title, description, image, pubDate },
+} = Astro.props;
 
-const image = imgSrc ? `${AppConfig.base_path}${imgSrc}` : avatar.src;
+const finalImage = image ? image.src : avatar.src;
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: title,
-  image,
+  image: finalImage,
   description,
   // "keywords": tags.join(' '),
   author: {

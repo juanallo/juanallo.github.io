@@ -5,3 +5,12 @@
 summary, .text-highlight {
   color: #22d3ee;
 }
+
+.mdImage {
+  margin: 0 auto;
+  background: white;
+}
+
+.note {
+  @apply p-4 bg-slate-700
+}
