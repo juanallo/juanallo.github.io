@@ -4,11 +4,13 @@ import { BlogPost } from "@/partials/BlogPost";
 import JSONLD from "@/partials/JSONLD.astro";
 import Base from "@/templates/Base.astro";
 import { AppConfig } from "@/utils/AppConfig";
-import { getPublished } from '@/utils/Posts'
+import { getPublished } from "@/utils/Posts";
+import similarItems from "@/utils/similar";
+import Similar from "@/partials/Similar.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const blogEntries = await getPublished()
+  const blogEntries = await getPublished();
   return blogEntries.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
@@ -20,6 +22,10 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 const title = `${entry.data.title} - ${AppConfig.site_name}`;
+const blogEntries = await getPublished();
+
+const similar = similarItems(entry, blogEntries);
+const showSimilar = similar.length > 0;
 ---
 
 <Base head={{ ...entry.data, title }}>
@@ -28,5 +34,6 @@ const title = `${entry.data.title} - ${AppConfig.site_name}`;
     <Content />
   </BlogPost>
 
+  {showSimilar && <Similar posts={similar} />}
   <!-- <CTA /> -->
 </Base>

@@ -1,5 +1,3 @@
-import type { MarkdownInstance } from "astro";
-
 import { BlogCard } from "./BlogCard";
 
 const BlogGallery = (props: any) => (

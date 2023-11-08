@@ -50,7 +50,7 @@ All commands are run from the root of the project, from a terminal:
 [x] Add structured content
 [x] Support for OG
 [x] Add sitemap generator
-[] Add Recommended Posts
+[x] Add Recommended Posts
 [] Support for tags in the blog posts
 [x] Export and import posts from wordpress
 [x] Support for drafts
