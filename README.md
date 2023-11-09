@@ -64,10 +64,9 @@ All commands are run from the root of the project, from a terminal:
 [] Publish to github pages
 [] Add permanent redirects for old URLS
 [] Check performance
-[] Switch juanmanuelalloron.com domain to github pages
 [] Test OG support
 [] Add share support (look for plugins)
-
+[] Switch juanmanuelalloron.com domain to github pages
 - Release
 [] Infer reading time
 [] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid

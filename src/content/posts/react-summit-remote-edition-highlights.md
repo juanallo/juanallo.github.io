@@ -8,6 +8,7 @@ redirect_from:
 tags: "accessibility, development, front-end, frontend, frontend conference, graphQL, javascript, open source, React, React Conference, ReactSummit"
 image: "../images/2020-04-reactsummitworkout.png"
 imgAlt: "The host working out in the React Summit"
+hideHero: true
 ---
 When the year started I was looking to attend to React Summit in Amsterdam. So I was super happy to hear that they were doing a remote edition. Woke up at 5:30 am to attend and it was totally worth it! Specially the workout break!!!
 

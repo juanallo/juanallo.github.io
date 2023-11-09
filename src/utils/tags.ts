@@ -1,4 +1,4 @@
-import { ColorTags } from "astro-boilerplate-components";
+import { ColorTags } from "@/partials/Tags";
 import { slug } from "github-slugger";
 
 export function getTags(post) {

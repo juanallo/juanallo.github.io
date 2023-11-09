@@ -1,10 +1,11 @@
-import { PostHeader, Section, Tags } from "astro-boilerplate-components";
+import { PostHeader, Section } from "astro-boilerplate-components";
 import type { ReactNode } from "react";
 
 import { AppConfig } from "@/utils/AppConfig";
 
 import { PostContent } from "./PostContent";
 import { getFormattedTags, getRandomColor, slugify } from "@/utils/tags";
+import { Tags } from "./Tags";
 
 type IBlogPostProps = {
   data: any;
@@ -26,9 +27,9 @@ const BlogPost = (props: IBlogPostProps) => (
         @juan_allo
       </a>
     </p>
-    <div className="flex gap-2 mx-auto max-w-prose mt-8">
+    <div className=" mx-auto max-w-prose mt-8 flex gap-2 flex-wrap">
       {getFormattedTags(props).map((t) => (
-        <a href={`/tag/${slugify(t)}/`}>
+        <a href={`/tag/${slugify(t)}/`} className="inline-block">
           <Tags key={t} color={getRandomColor()}>
             {t}
           </Tags>
