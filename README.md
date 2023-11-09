@@ -43,17 +43,19 @@ All commands are run from the root of the project, from a terminal:
 | `npm run lint`    | Run ESLint and report styling error          |
 
 ## TODO
-  
-[] Publish to github pages
-[] Integrate with google analytics
-[] Add permanent redirects for old URLS
-[] Check performance
-[] Test OG support
-[] Add share support (look for plugins)
-[] Switch juanmanuelalloron.com domain to github pages
+
+
+- [ ] Publish to github pages
+- [ ] Integrate with google analytics
+- [ ] Add permanent redirects for old URLS
+- [ ] Check performance
+- [ ] Test OG support
+- [ ] Add share support (look for plugins)
+- [ ] Switch juanmanuelalloron.com domain to github pages
+
 --- 
 Release
-[] Infer reading time
-[] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
-[] Add subscribe to newsletter
-[] Github actions to publish to twitter, linkedin, pinterest, 
+- [ ] Infer reading time
+- [ ] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
+- [ ] Add subscribe to newsletter
+- [ ] Github actions to publish to twitter, linkedin, pinterest, 
