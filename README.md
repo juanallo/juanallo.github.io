@@ -58,4 +58,5 @@ Release
 - [ ] Infer reading time
 - [ ] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
 - [ ] Add subscribe to newsletter
+- [ ] github action to publish scheduled posts
 - [ ] Github actions to publish to twitter, linkedin, pinterest, 
