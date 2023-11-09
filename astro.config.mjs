@@ -10,6 +10,7 @@ import rehypeClassNames from "rehype-class-names";
 import rehypeExternalLinks from "rehype-external-links";
 // import remarkAttr from "remark-attr";
 import { AppConfig } from "./src/utils/AppConfig";
+import partytown from '@astrojs/partytown'
 
 // https://astro.build/config
 export default defineConfig({
@@ -35,5 +36,10 @@ export default defineConfig({
     sitemap(),
     robotsTxt(),
     astroImageTools,
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
   ],
 });

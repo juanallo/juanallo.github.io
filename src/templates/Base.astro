@@ -1,23 +1,14 @@
 ---
 import "./base.css";
 
+import avatar from '@/images/avatar.png';
 import { Footer } from "@/partials/Footer";
 import { Navbar } from "@/partials/Navbar";
 import { AppConfig } from "@/utils/AppConfig";
-import avatar from "@/images/avatar.png";
 
 const {
-  head: {
-    title,
-    description,
-    canonical,
-    noindex,
-    url,
-    image,
-    imgAlt,
-    pubDate,
-  },
-} = Astro.props
+  head: { title, description, canonical, noindex, url, image, imgAlt, pubDate },
+} = Astro.props;
 
 const path = url ? `${AppConfig.base_path}${url}` : `${AppConfig.base_path}/`;
 const finalImage = image ? image.src : avatar.src;
@@ -57,13 +48,31 @@ const finalImage = image ? image.src : avatar.src;
 
     {pubDate && <meta name="article:published_time" content={pubDate} />}
     {pubDate && <meta name="article:publisher" content={AppConfig.author} />}
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      type="text/partytown"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MXRS5WCX8T"
+    >
+
+    </script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-MXRS5WCX8T");
+    </script>
   </head>
   <body class="bg-slate-900 text-gray-100">
     <Navbar />
 
     <slot></slot>
 
-    <div class='mt-8 w-full'>
+    <div class="mt-8 w-full">
       <Footer />
     </div>
   </body>

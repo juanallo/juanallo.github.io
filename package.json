@@ -50,6 +50,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "@astrojs/partytown": "^2.0.2",
     "astro-boilerplate-components": "^1.0.15",
     "date-fns": "^2.28.0",
     "github-slugger": "^2.0.0",
