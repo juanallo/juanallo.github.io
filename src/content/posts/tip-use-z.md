@@ -3,8 +3,6 @@
 title: 'Tip: use Z'
 description: ""
 pubDate: 2020-05-28
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/28/tip-use-z/
 tags: "coding, development, osx terminal, Quick Tips"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

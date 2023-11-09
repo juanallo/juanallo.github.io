@@ -3,8 +3,6 @@
 title: 'Teach Object Oriented Programming, the Steve Jobs way'
 description: ""
 pubDate: 2015-11-09
-redirect_from: 
-            - http://juanmanuelalloron.com/2015/11/09/teach-object-orientedprogramming-the-steve-jobs-way/
 tags: "object oriented programming, oop, quote, Quotes"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

@@ -3,8 +3,6 @@
 title: 'Tip: list NPM scripts'
 description: ""
 pubDate: 2020-05-14
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/14/tip-list-npm-scripts/
 tags: "development, javascript, nodejs, npm, Quick Tips, scripts, Whatever, yarn"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

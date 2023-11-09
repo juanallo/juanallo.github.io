@@ -3,8 +3,6 @@
 title: 'Free UX Design Books'
 description: ""
 pubDate: 2017-01-02
-redirect_from: 
-            - http://juanmanuelalloron.com/2017/01/03/free-ux-design-books/
 tags: "Whatever"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

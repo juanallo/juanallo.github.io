@@ -3,8 +3,6 @@
 title: 'Weekly Digest #7: On Javascript books'
 description: ""
 pubDate: 2020-05-03
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/03/weekly-digest-7-on-javascript-books/
 tags: "books, development, digest, javascript, js, Weekly Digest"
 image: "../images/2020-05-js-books-e1588543641560.png"
 imgAlt: "A book cover with JS books as the title"

@@ -3,8 +3,6 @@
 title: 'React Summit Remote Edition Highlights'
 description: ""
 pubDate: 2020-04-21
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/21/react-summit-remote-edition-highlights/
 tags: "accessibility, development, front-end, frontend, frontend conference, graphQL, javascript, open source, React, React Conference, ReactSummit"
 image: "../images/2020-04-reactsummitworkout.png"
 imgAlt: "The host working out in the React Summit"

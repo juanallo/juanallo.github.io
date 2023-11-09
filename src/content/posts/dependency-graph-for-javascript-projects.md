@@ -2,8 +2,6 @@
 title: "Dependency Graph for Javascript Projects"
 description: ""
 pubDate: 2020-03-24
-redirect_from:
-  - http://juanmanuelalloron.com/2020/03/24/dependency-graph-for-javascript-projects/
 tags: "coding, dependency analysis, dependency graph, dependency-cruiser, front-end, frontend, graphviz, javascript, node, nodejs, npm, package manager, refactor, software"
 image: "../images/2020-03-dependencygraph.png"
 imgAlt: "A dependency graph example for a JS project"

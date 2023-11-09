@@ -3,8 +3,6 @@
 title: 'Weekly Digest #3: Understanding Javascript Internals'
 description: ""
 pubDate: 2020-04-05
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/05/weekly-digest-3-understanding-javascript-internals/
 tags: "advanced javascript, browsers, bytecode, closures, development, digest, event loop, how browsers work, howitworks, javascript, javascript engine, lexical scope, memory management, v8, Weekly Digest"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

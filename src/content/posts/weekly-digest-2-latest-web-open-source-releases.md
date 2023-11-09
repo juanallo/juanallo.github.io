@@ -3,8 +3,6 @@
 title: 'Weekly Digest #2: Latest web open source releases'
 description: ""
 pubDate: 2020-03-29
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/03/29/weekly-digest-2-latest-web-open-source-releases/
 tags: "babeljs, development, digest, git, javascript, new releases, nextjs, npm, open source, open source software, prettier, storybook, typescript, web, Weekly Digest, Whatever"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

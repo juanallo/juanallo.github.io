@@ -2,8 +2,6 @@
 title: "Weekly Digest #11: On technical Interviews"
 description: ""
 pubDate: 2020-05-31
-redirect_from:
-  - http://juanmanuelalloron.com/2020/05/31/weekly-digest-on-technical-interviews/
 tags: "interview questions, interviews, tech interview, tech interview handbook"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

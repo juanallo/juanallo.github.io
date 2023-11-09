@@ -3,8 +3,6 @@
 title: 'Testing VSCode Extensions with Cypress and code-server'
 description: ""
 pubDate: 2020-05-05
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/05/testing-vscode-extensions-with-cypress-and-code-server/
 tags: "cypress, development, test, testing, vscode, vscode extension"
 image: "../images/2020-04-vscode-e2e.png"
 imgAlt: ""

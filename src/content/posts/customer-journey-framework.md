@@ -3,8 +3,6 @@
 title: 'Customer Journey Framework'
 description: ""
 pubDate: 2016-09-13
-redirect_from: 
-            - http://juanmanuelalloron.com/2016/09/13/customer-journey-framework/
 tags: "Customer Journey, CX, ux"
 image: "../images/2016-09-gml_cx-researchbrandedimage1.jpg"
 imgAlt: "A customer Journey workflow with 5 main steps: Buy, Purchase, Own, Love, Advocate"

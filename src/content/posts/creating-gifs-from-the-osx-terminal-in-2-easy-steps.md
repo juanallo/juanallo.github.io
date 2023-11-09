@@ -3,8 +3,6 @@
 title: 'Creating gifs from the OSX terminal in 2 easy steps'
 description: ""
 pubDate: 2020-03-31
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/03/31/creating-gifs-from-the-osx-terminal-in-2-easy-steps/
 tags: "create gif, demo, design, develop, development, gif, movie to gif, osx terminal, presentation, ui ux, ux, ux design, ux designer"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

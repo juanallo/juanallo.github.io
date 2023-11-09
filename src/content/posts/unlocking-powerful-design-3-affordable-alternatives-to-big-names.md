@@ -3,8 +3,6 @@
 title: 'Unlocking Powerful Design: 3 Affordable Alternatives to Big Names'
 description: ""
 pubDate: 2023-09-08
-redirect_from: 
-            - http://juanmanuelalloron.com/?p=891
 tags: "art, Content Curation, design process, ux, Whatever"
 image: "../images/2023-09-canva-1.jpg"
 imgAlt: "A notebook showcasing Canva, Photopea and Inkscape"

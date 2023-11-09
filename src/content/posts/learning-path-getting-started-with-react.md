@@ -3,8 +3,6 @@
 title: 'Learning Path: Getting started with React'
 description: ""
 pubDate: 2020-05-19
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/19/learning-path-getting-started-with-react/
 tags: "100daysOfCode, development, javascript, Learning path, React, React Fiber"
 image: "../images/2020-05-learning-react-1.png"
 imgAlt: "React Logo"

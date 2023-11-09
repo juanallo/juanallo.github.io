@@ -2,8 +2,6 @@
 title: "Callbacks in Javascript"
 description: ""
 pubDate: 2017-11-15T16:00:01Z
-redirect_from:
-  - http://juanmanuelalloron.com/2017/11/15/callbacks-in-javascript/
 tags: "development, javascript"
 image: "../images/callbacks.jpg"
 imgAlt: "Blurred lines of code"

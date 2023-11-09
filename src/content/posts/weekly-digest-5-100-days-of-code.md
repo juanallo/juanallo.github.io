@@ -3,8 +3,6 @@
 title: 'Weekly Digest #5: 100 days of code'
 description: ""
 pubDate: 2020-04-19
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/19/weekly-digest-5-100-days-of-code/
 tags: "100 days of code, 100daysOfCode, coding, digest, github, javascript, programming, projects, React, web, Weekly Digest"
 image: "../images/2020-04-100daysofcode.png"
 imgAlt: ""

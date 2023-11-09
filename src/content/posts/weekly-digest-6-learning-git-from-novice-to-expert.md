@@ -3,8 +3,6 @@
 title: 'Weekly Digest #6: Learning Git from novice to expert'
 description: ""
 pubDate: 2020-04-26
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/26/weekly-digest-6-learning-git-from-novice-to-expert/
 tags: "100 days of code, 100daysOfCode, coding, dev tools, develop, git, github, javascript, programming, Weekly Digest"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

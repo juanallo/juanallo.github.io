@@ -3,8 +3,6 @@
 title: 'Starting a new Trip'
 description: ""
 pubDate: 2014-10-28
-redirect_from: 
-            - http://juanmanuelalloron.com/2014/10/28/starting-a-new-trip/
 tags: "Whatever"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

@@ -3,8 +3,6 @@
 title: 'Visual Alphabet'
 description: ""
 pubDate: 2014-11-10
-redirect_from: 
-            - http://juanmanuelalloron.com/2014/11/10/visual-alphabet/
 tags: "doodling, sketching, techniques, ux skills, visual alphabet, Whatever"
 image: "../images/2014-11-visual-alphabet.png"
 imgAlt: "Visual Alphabet elements"

@@ -3,8 +3,6 @@
 title: 'What''s all the hype about React Server Components?'
 description: ""
 pubDate: 2021-01-07
-redirect_from: 
-            - http://juanmanuelalloron.com/2021/01/07/whats-all-the-hype-about-react-server-components/
 tags: "development, javascript, js, performance, React, react server components, ssr"
 image: "../images/2020-12-imgur-loading-sequence.png"
 imgAlt: "A typical loading sequence for a web page" 

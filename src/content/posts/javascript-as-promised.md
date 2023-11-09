@@ -2,8 +2,6 @@
 title: "Javascript as Promised"
 description: ""
 pubDate: 2017-11-15T18:00:01Z
-redirect_from:
-  - http://juanmanuelalloron.com/2017/11/15/javascript-as-promised/
 tags: "development, javascript"
 image: "../images/2017-11-promisestates.png"
 imgAlt: "Promise States: Pending/Fulfilled/Rejected"

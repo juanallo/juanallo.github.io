@@ -3,8 +3,6 @@
 title: 'Near Fitts''s law'
 description: ""
 pubDate: 2017-11-16
-redirect_from: 
-            - http://juanmanuelalloron.com/?p=37
 tags: "ux"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

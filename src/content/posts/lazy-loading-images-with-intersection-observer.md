@@ -3,8 +3,6 @@
 title: 'Lazy loading images with Intersection Observer'
 description: ""
 pubDate: 2020-05-26
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/26/lazy-loading-images-with-intersection-observer/
 tags: "development, javascript, js, lazy loading, performance, techniques, vanilla JavaScript"
 image: "../images/2020-05-image-gallery-example.png"
 imgAlt: "Image Slideshow example"

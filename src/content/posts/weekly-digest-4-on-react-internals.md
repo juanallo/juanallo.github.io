@@ -3,8 +3,6 @@
 title: 'Weekly Digest #4: On React internals'
 description: ""
 pubDate: 2020-04-12
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/12/weekly-digest-4-on-react-internals/
 tags: "digest, howitworks, internals, javascript, React, React Fiber, web, Weekly Digest"
 image: "../images/2020-04-state-change.png"
 imgAlt: "React Process that involves figuring out differences between DOM and vDOM"

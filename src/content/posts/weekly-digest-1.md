@@ -3,8 +3,6 @@
 title: 'Weekly Digest #1'
 description: ""
 pubDate: 2020-03-22
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/03/22/weekly-digest-1/
 tags: "best practices, code editors, coding, development, digest, javascript, js, vanilla JavaScript, Weekly Digest"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

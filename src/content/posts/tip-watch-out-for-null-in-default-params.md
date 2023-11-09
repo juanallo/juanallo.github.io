@@ -3,8 +3,6 @@
 title: 'Tip: Watch out for null in default params'
 description: ""
 pubDate: 2020-06-04
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/06/04/tip-watch-out-for-null-in-default-params/
 tags: "es6, javascript, js, Quick Tips, vanilla JavaScript"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

@@ -3,8 +3,6 @@
 title: 'Tip: Syntax Highlighting with BAT'
 description: ""
 pubDate: 2020-05-07
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/07/tip-syntax-highlighting-with-bat/
 tags: "coding, development, Homebrew, osx terminal, programming, Quick Tips, tips"
 image: "../images/2020-05-cat-vs-bat.png"
 imgAlt: "Side to side visual differences between the command cat and bat"

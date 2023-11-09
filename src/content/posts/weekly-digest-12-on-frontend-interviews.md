@@ -3,8 +3,6 @@
 title: 'Weekly Digest #12: on front-end interviews'
 description: ""
 pubDate: 2020-06-07
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/06/07/weekly-digest-on-front-end-interviews/
 tags: "front-end, frontend, interview questions, interviews, javascript, tech interview, Weekly Digest"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

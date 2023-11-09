@@ -46,8 +46,8 @@ All commands are run from the root of the project, from a terminal:
 
 
 - [x] Publish to github pages
-- [ ] Integrate with google analytics
-- [ ] Add permanent redirects for old URLS
+- [x] Integrate with google analytics
+- [x] Add permanent redirects for old URLS
 - [ ] Check performance
 - [ ] Test OG support
 - [ ] Add share support (look for plugins)

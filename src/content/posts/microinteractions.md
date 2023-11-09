@@ -3,8 +3,6 @@
 title: 'Micro-interactions'
 description: ""
 pubDate: 2015-11-30
-redirect_from: 
-            - http://juanmanuelalloron.com/2015/11/30/micro-interactions/
 tags: "Quotes"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

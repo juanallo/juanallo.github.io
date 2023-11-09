@@ -3,8 +3,6 @@
 title: 'How to measure design effectiveness'
 description: ""
 pubDate: 2014-11-05
-redirect_from: 
-            - http://juanmanuelalloron.com/2014/11/05/how-to-measure-design-effectiveness/
 tags: "design, effectiveness, measure, techniques, test, testing, ux, web testing"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

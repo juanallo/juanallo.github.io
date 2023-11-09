@@ -3,8 +3,6 @@
 title: 'Design Project Organized'
 description: ""
 pubDate: 2015-06-02
-redirect_from: 
-            - http://juanmanuelalloron.com/2015/06/02/design-project-organized/
 tags: "atomic design, design process, project structure, systematic design, techniques"
 image: "../images/2015-06-design-project-structure.png"
 imgAlt: "Design Project Structure"

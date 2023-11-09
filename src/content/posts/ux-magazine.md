@@ -3,8 +3,6 @@
 title: 'UX Magazine'
 description: ""
 pubDate: 2015-06-08
-redirect_from: 
-            - http://juanmanuelalloron.com/2015/06/09/ux-magazine/
 tags: "Content Curation, feedly, flipboard, flipboard magazine, rss, ux magazine"
 image: "../images/2015-06-ux-magazine.jpg"
 imgAlt: ""

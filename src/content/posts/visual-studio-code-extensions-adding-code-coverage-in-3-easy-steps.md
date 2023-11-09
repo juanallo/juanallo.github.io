@@ -3,8 +3,6 @@
 title: 'Visual Studio Code Extensions: Adding code coverage in 3 easy steps'
 description: ""
 pubDate: 2020-04-07
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/07/visual-studio-code-extensions-adding-code-coverage-in-3-easy-steps/
 tags: "code coverage, coding, development, extension, istanbul.js, istanbulJs, javascript, Mocha, testing, visual studio code, vs code, vscode, vscode extension, web"
 image: "../images/2020-04-coverage-example.png"
 imgAlt: "Coverage output example"

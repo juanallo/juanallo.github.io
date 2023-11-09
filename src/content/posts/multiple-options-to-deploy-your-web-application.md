@@ -3,8 +3,6 @@
 title: 'Multiple options to deploy your web application'
 description: ""
 pubDate: 2021-02-05
-redirect_from: 
-            - http://juanmanuelalloron.com/2021/02/05/multiple-options-to-deploy-your-web-application/
 tags: "deploy, development, hosting, javascript, React, release, web, Weekly Digest"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

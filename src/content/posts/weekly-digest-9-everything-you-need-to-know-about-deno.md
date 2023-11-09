@@ -2,8 +2,6 @@
 title: "Weekly Digest #9: Everything you need to know about Deno"
 description: ""
 pubDate: 2020-05-17
-redirect_from:
-  - http://juanmanuelalloron.com/2020/05/17/weekly-digest-everything-you-need-to-know-about-deno/
 tags: "deno, development, javascript, js, node, nodejs, typescript"
 image: "../images/2020-05-deno.png"
 imgAlt: ""

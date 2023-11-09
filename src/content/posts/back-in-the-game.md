@@ -2,8 +2,6 @@
 title: 'Back in the game'
 description: ""
 pubDate: 2023-08-09
-redirect_from: 
-            - http://juanmanuelalloron.com/?p=872
 tags: "Whatever"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

@@ -3,8 +3,6 @@
 title: 'Weekly Digest #8: On building games'
 description: ""
 pubDate: 2020-05-10
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/10/weekly-digest-on-building-games/
 tags: "development, gameDev, javascript, js, unity, Weekly Digest, Whatever"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

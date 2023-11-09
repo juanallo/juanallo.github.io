@@ -3,8 +3,6 @@
 title: 'Create Quick and Stunning graphs'
 description: ""
 pubDate: 2020-04-28
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/28/create-quick-stunning-graphs/
 tags: "art, blog, blogging, canva, design process, development, diagrams, flowchart, programming, ux, ux design, web design"
 image: "../images/2020-04-canva-gallery.png"
 imgAlt: "Canva.com main editor"

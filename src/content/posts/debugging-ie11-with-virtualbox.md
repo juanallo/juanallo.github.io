@@ -3,8 +3,6 @@
 title: 'Debugging IE11 with VirtualBox'
 description: ""
 pubDate: 2020-05-12
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/12/debugging-ie11-with-virtualbox/
 tags: "coding, debug, debugging, development, javascript, virtualBox"
 image: "../images/2020-05-virtualbox.png"
 imgAlt: "VirtualBox UI screenshot"

@@ -3,8 +3,6 @@
 title: 'Thoughts on Snapshot Testing'
 description: ""
 pubDate: 2020-04-14
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/04/14/thoughts-on-snapshot-testing/
 tags: "best practices, coding, development, javascript, jest, js, programming, React, snapshot testing, software, test, testing, web"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

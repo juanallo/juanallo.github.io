@@ -3,8 +3,6 @@
 title: 'Programmers, coders...'
 description: ""
 pubDate: 2015-10-09
-redirect_from: 
-            - http://juanmanuelalloron.com/2015/10/09/programmers-coders/
 tags: "Whatever"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

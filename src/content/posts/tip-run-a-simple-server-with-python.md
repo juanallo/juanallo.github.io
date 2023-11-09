@@ -3,8 +3,6 @@
 title: 'Tip: Run a simple server with Python'
 description: ""
 pubDate: 2020-05-21
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/21/tip-run-a-simple-server-with-python/
 tags: "python, Quick Tips, server"
 image: "../images/defaultHero.jpg"
 imgAlt: ""

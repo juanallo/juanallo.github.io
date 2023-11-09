@@ -3,8 +3,6 @@
 title: 'Weekly Digest #10: On Remix, Snowpack, Rome and Web-vitals'
 description: ""
 pubDate: 2020-05-24
-redirect_from: 
-            - http://juanmanuelalloron.com/2020/05/24/weekly-digest-on-remix-snowpack-rome-and-web-vitals/
 tags: "development, javascript, js, React, remix, romeJS, web, web vitals, Weekly Digest"
 image: "../images/2020-05-new-projects-in-town-big-2.png"
 imgAlt: ""

@@ -3,8 +3,6 @@
 title: 'Partial Application made easy with ES6'
 description: ""
 pubDate: 2018-11-12
-redirect_from: 
-            - http://juanmanuelalloron.com/2018/11/13/partial-application-made-easy-with-es6/
 tags: "development, es6, functional programming, javascript, partial application"
 image: "../images/defaultHero.jpg"
 imgAlt: ""
