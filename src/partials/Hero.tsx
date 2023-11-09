@@ -20,8 +20,8 @@ const Hero = () => (
       description={
         <div className="flex flex-col gap-2">
           <p>
-            I am staff+ Software Engineer building engaging user experiences and
-            always learning!
+            I'm a staff+ Software Engineer building engaging user experiences
+            and always learning!
           </p>
           <p>
             Passionate about web performance, React, and software architecture.

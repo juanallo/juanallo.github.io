@@ -45,7 +45,7 @@ All commands are run from the root of the project, from a terminal:
 ## TODO
 
 
-- [ ] Publish to github pages
+- [x] Publish to github pages
 - [ ] Integrate with google analytics
 - [ ] Add permanent redirects for old URLS
 - [ ] Check performance
