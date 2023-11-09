@@ -43,37 +43,17 @@ All commands are run from the root of the project, from a terminal:
 | `npm run lint`    | Run ESLint and report styling error          |
 
 ## TODO
-
-[x] Highlight summary on details 
-[x] Highlight links
-[x] ADD SEO meta tags
-[x] Add structured content
-[x] Support for OG
-[x] Add sitemap generator
-[x] Add Recommended Posts
-[x] Support for tags in the blog posts
-  [x] Add tags in post
-  [x] Tags page
-  [x] Link tags to tags page
-[x] Export and import posts from wordpress
-[x] Support for drafts
-[x] Improve the logo 
-[x] Add a proper favicon
-- Alpha
-[] Integrate with google analytics
+  
 [] Publish to github pages
+[] Integrate with google analytics
 [] Add permanent redirects for old URLS
 [] Check performance
 [] Test OG support
 [] Add share support (look for plugins)
 [] Switch juanmanuelalloron.com domain to github pages
-- Release
+--- 
+Release
 [] Infer reading time
 [] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
 [] Add subscribe to newsletter
 [] Github actions to publish to twitter, linkedin, pinterest, 
-
-## Incomplete blog posts:
-
-[] javascript-as-promised
-[] partial-application-made-easy-with-es6
