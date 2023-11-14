@@ -6,6 +6,7 @@ import { AppConfig } from "@/utils/AppConfig";
 import { getPublished } from "@/utils/Posts";
 import findSimilarPosts from "@/utils/similar";
 import Similar from "@/partials/Similar.astro";
+import SocialShare from "@/partials/share/SocialShare.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -32,6 +33,15 @@ const showSimilar = similar.length > 0;
   <BlogPost data={entry.data}>
     <Content />
   </BlogPost>
+
+  <section class="mx-auto max-w-prose my-4 text-white">
+    <h2 class="text-slate-300 bold mb-3">Share</h2>
+    <SocialShare
+      description={entry.data.description}
+      via="juan_allo"
+      title={entry.data.title}
+    />
+  </section>
 
   {showSimilar && <Similar posts={similar} />}
   <!-- <CTA /> -->

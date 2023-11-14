@@ -50,7 +50,7 @@ All commands are run from the root of the project, from a terminal:
 - [x] Add permanent redirects for old URLS
 - [ ] Check performance
 - [ ] Test OG support
-- [ ] Add share support (look for plugins)
+- [x] Add share support (look for plugins)
 - [ ] Switch juanmanuelalloron.com domain to github pages
 
 --- 
