@@ -1,7 +1,7 @@
 ---
 import "./base.css";
 
-import avatar from '@/images/avatar.png';
+import avatar from "@/images/avatar.png";
 import { Footer } from "@/partials/Footer";
 import { Navbar } from "@/partials/Navbar";
 import { AppConfig } from "@/utils/AppConfig";
@@ -11,7 +11,7 @@ const {
 } = Astro.props;
 
 const path = url ? `${AppConfig.base_path}${url}` : `${AppConfig.base_path}/`;
-const finalImage = image ? image.src : avatar.src;
+const finalImage = AppConfig.base_path + (image ? image.src : avatar.src);
 ---
 
 <html lang="en">
@@ -41,7 +41,7 @@ const finalImage = image ? image.src : avatar.src;
     <meta name="twitter:text:title" content={title} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={image} />
+    <meta name="twitter:image" content={finalImage} />
     <meta name="twitter:creator" content="@juan_allo" />
     <meta name="twitter:site" content="@juan_allo" />
     <meta name="twitter:card" content="summary_large_image" />
