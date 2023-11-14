@@ -12,6 +12,9 @@ const {
 
 const path = url ? `${AppConfig.base_path}${url}` : `${AppConfig.base_path}/`;
 const finalImage = AppConfig.base_path + (image ? image.src : avatar.src);
+const width = image?.width ?? avatar.width;
+const height = image?.height ?? avatar.height; 
+const format = image?.format ?? avatar?.format
 ---
 
 <html lang="en">
@@ -35,8 +38,12 @@ const finalImage = AppConfig.base_path + (image ? image.src : avatar.src);
     <meta property="og:type" content="website" />
     <meta property="og:url" content={path} />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:image" content={finalImage} />
+    <meta property="og:image" itemprop="image" content={finalImage} />
     {imgAlt && <meta property="og:image:alt" content={imgAlt} />}
+
+    <meta property="og:image:width" content={width}>
+    <meta property="og:image:height" content={height}>
+    <meta property="og:image:type" content={format}>
 
     <meta name="twitter:text:title" content={title} />
     <meta name="twitter:title" content={title} />
