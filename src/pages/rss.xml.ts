@@ -1,10 +1,10 @@
 import rss from '@astrojs/rss';
 
 import { AppConfig } from '@/utils/AppConfig';
-import { getCollection } from 'astro:content';
+import { getPublished } from '@/utils/Posts';
 
 export const get = async () => {
-  const posts = await getCollection("posts");
+  const posts = await getPublished();
   return rss({
     // `<title>` field in output xml
     title: AppConfig.title,
