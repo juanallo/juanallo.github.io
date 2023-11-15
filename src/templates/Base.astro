@@ -54,7 +54,7 @@ const format = image?.format ?? avatar?.format
     <meta name="twitter:site" content="@juan_allo" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    {pubDate && <meta name="article:published_time" content={pubDate} />}
+    {pubDate && <meta name="article:published_time" content={pubDate.toISOString()} />}
     {pubDate && <meta name="article:publisher" content={AppConfig.author} />}
 
     <!-- Google tag (gtag.js) -->
