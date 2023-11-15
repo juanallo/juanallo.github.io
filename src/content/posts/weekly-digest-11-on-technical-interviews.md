@@ -3,7 +3,7 @@ title: "Weekly Digest #11: On technical Interviews"
 description: ""
 pubDate: 2020-05-31
 tags: "interview questions, interviews, tech interview, tech interview handbook"
-image: "../images/defaultHero.jpg"
+image: "../images/weekly-digest-11-on-technical-interviews.jpg"
 imgAlt: ""
 ---
 

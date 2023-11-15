@@ -4,7 +4,7 @@ title: 'Multiple options to deploy your web application'
 description: ""
 pubDate: 2021-02-05
 tags: "deploy, development, hosting, javascript, React, release, web, Weekly Digest"
-image: "../images/defaultHero.jpg"
+image: "../images/multiple-options-to-deploy-your-web-application.jpg"
 imgAlt: ""
 ---
 In this weekly digest I have compiled a list of tutorials to deploy your website or app into different hosting providers.

@@ -4,8 +4,8 @@ title: 'Tip: use Z'
 description: ""
 pubDate: 2020-05-28
 tags: "coding, development, osx terminal, Quick Tips"
-image: "../images/defaultHero.jpg"
-imgAlt: ""
+image: "../images/tip-use-z.jpg"
+imgAlt: "An image showing the output of the command man z"
 ---
 Aren't you tired of always typing the same routes in the terminal? When I found `z` it changed my productivity.
 

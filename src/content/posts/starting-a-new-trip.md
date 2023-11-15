@@ -4,8 +4,8 @@ title: 'Starting a new Trip'
 description: ""
 pubDate: 2014-10-28
 tags: "Whatever"
-image: "../images/defaultHero.jpg"
-imgAlt: ""
+image: "../images/starting-a-new-trip.jpg"
+imgAlt: "Two people standing on a sign that says passion led us here"
 ---
 We are intellectual creatures, we discover, experience and learn. That is what make us so different from other creatures in this world.
 

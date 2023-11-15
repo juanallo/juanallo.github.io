@@ -4,8 +4,9 @@ title: 'Thoughts on Snapshot Testing'
 description: ""
 pubDate: 2020-04-14
 tags: "best practices, coding, development, javascript, jest, js, programming, React, snapshot testing, software, test, testing, web"
-image: "../images/defaultHero.jpg"
-imgAlt: ""
+image: "../images/thoughts-on-snapshot-testing.jpg"
+imgAlt: "Two employees testing a web app"
+hideHero: true
 ---
 Since I moved to react at work I have been using and trying different testing strategies and I wanted to share some thoughts and best practices around snapshot testing.
 

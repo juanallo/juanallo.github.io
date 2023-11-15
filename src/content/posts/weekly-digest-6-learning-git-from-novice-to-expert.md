@@ -4,7 +4,7 @@ title: 'Weekly Digest #6: Learning Git from novice to expert'
 description: ""
 pubDate: 2020-04-26
 tags: "100 days of code, 100daysOfCode, coding, dev tools, develop, git, github, javascript, programming, Weekly Digest"
-image: "../images/defaultHero.jpg"
+image: "../images/weekly-digest-6-learning-git-from-novice-to-expert.jpg"
 imgAlt: ""
 ---
 Recently I have been helping to create content to onboard new developers. One of the topics I prepared was Git. I have been using git for more than 12 years, and while doing research I was surprised to learn new things. So I decided to share some useful links with everyone.

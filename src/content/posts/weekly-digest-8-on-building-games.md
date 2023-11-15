@@ -4,7 +4,7 @@ title: 'Weekly Digest #8: On building games'
 description: ""
 pubDate: 2020-05-10
 tags: "development, gameDev, javascript, js, unity, Weekly Digest, Whatever"
-image: "../images/defaultHero.jpg"
+image: "../images/weekly-digest-8-on-building-games.jpg"
 imgAlt: ""
 ---
 It has been always in the back of my head to develop some games. A while back I developed an android game called [Drink or Dare](https://play.google.com/store/apps/details?id=com.sesalefuerte.app&hl=en_US) with some friends, but that's about it.

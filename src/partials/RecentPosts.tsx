@@ -27,7 +27,7 @@ const RecentPosts = (props: IRecentPostsProps) => (
     <>
       <BlogGallery postList={props.postList} />
       <div className="text-md pt-8 text-center">
-        <a href="/posts/">View all Posts →</a>
+        <a href="/posts/2/">Older Posts →</a>
       </div>
     </>
   </Section>

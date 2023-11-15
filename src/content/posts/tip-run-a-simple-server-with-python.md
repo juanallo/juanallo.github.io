@@ -4,8 +4,9 @@ title: 'Tip: Run a simple server with Python'
 description: ""
 pubDate: 2020-05-21
 tags: "python, Quick Tips, server"
-image: "../images/defaultHero.jpg"
+image: "../images/tip-run-a-simple-server-with-python.jpg"
 imgAlt: ""
+hideHero: true
 ---
 I used this all the time! When you want to quickly serve a website or a page, or even mock a quick API, you can use python to start a server:
 

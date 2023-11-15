@@ -4,7 +4,7 @@ title: 'Tip: list NPM scripts'
 description: ""
 pubDate: 2020-05-14
 tags: "development, javascript, nodejs, npm, Quick Tips, scripts, Whatever, yarn"
-image: "../images/defaultHero.jpg"
+image: "../images/tip-list-npm-scripts.jpg"
 imgAlt: ""
 ---
 NPM scripts are super popular these days and they are usually the main way of executing tasks in any JS repo. The challenge is that there is no standard and every project will have different options. In this quick-tip I will show you how to list scripts from the terminal.
