@@ -1,7 +1,7 @@
 ---
 
 title: 'Tip: Watch out for null in default params'
-description: ""
+description: "Defaults in function parameters is a feature that simplified my code a lot. But there is one caveat that we need to be aware of! Let’s start with an example:"
 pubDate: 2020-06-04
 tags: "es6, javascript, js, Quick Tips, vanilla JavaScript"
 image: "../images/tip-watch-out-for-null-in-default-params.jpg"

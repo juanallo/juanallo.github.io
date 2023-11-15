@@ -1,7 +1,7 @@
 ---
 
 title: 'React Summit Remote Edition Highlights'
-description: ""
+description: "When the year started I was looking to attend to React Summit in Amsterdam. So I was super happy to hear that they were doing a remote edition. Woke up at 5:30 am to attend and it was totally worth it! Specially the workout break!!!"
 pubDate: 2020-04-21
 tags: "accessibility, development, front-end, frontend, frontend conference, graphQL, javascript, open source, React, React Conference, ReactSummit"
 image: "../images/2020-04-reactsummitworkout.png"

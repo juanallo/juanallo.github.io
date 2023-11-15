@@ -1,7 +1,7 @@
 ---
 
 title: 'Visual Alphabet'
-description: ""
+description: "Sketching and doodling have an important role in UX designer day to day tasks. But a UX guy doesn’t need to be a visual designer, so if you are starting in the UX world don’t be afraid;"
 pubDate: 2014-11-10
 tags: "doodling, sketching, techniques, ux skills, visual alphabet, Whatever"
 image: "../images/2014-11-visual-alphabet.png"
@@ -18,7 +18,7 @@ Once more, it is not about creating amazing visual designs, it is about sketchin
 
 Practice with this simple elements to build complex objects, and you will increase your visual communication skill drastically. For example, take a look at this coffee cup, and you will see that drawing it is just a matter of combining the right pieces!
 
-![Coffe cup example](https://juanmanuelalloron.files.wordpress.com/2014/11/using-visual-alphabet.png)
+![Coffe cup example](../images/2014-11-using-visual-alphabet.png)
 
 I will recommend to take one word a day do a sketch, and try to polish it until it is clear. You can easily test if the message can be understood by showing your drawing to anyone and ask him what it is. You can use random word generators to get every day word. For example, you can use [the Pictionary word generator](http://www.wordgenerator.net/pictionary-word-generator.php "Pictionary word generator").
 

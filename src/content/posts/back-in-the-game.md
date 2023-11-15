@@ -1,6 +1,6 @@
 ---
 title: 'Back in the game'
-description: ""
+description: "I just came back from a trip and while I look for my new career opportunity I'll be sharing my journey here in my blog"
 pubDate: 2023-08-09
 tags: "Whatever"
 image: "../images/defaultHero.jpg"

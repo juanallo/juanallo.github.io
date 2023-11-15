@@ -1,7 +1,7 @@
 ---
 
 title: 'Create Quick and Stunning graphs'
-description: ""
+description: "How to use canva to create designs, logos and much more"
 pubDate: 2020-04-28
 tags: "art, blog, blogging, canva, design process, development, diagrams, flowchart, programming, ux, ux design, web design"
 image: "../images/2020-04-canva-gallery.png"

@@ -1,7 +1,7 @@
 ---
 
 title: 'Free UX Design Books'
-description: ""
+description: "I just came across with a link to some O’Reilly UX design books. They are free and look very promising. I am starting to read Experience Design!!"
 pubDate: 2017-01-02
 tags: "Whatever"
 image: "../images/defaultHero.jpg"

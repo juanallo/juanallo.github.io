@@ -1,6 +1,6 @@
 ---
 title: "Weekly Digest #9: Everything you need to know about Deno"
-description: ""
+description: "Deno is a new ECMAScript based runtime (like NodeJS) created by Ryan Dahl (who also created NodeJS)"
 pubDate: 2020-05-17
 tags: "deno, development, javascript, js, node, nodejs, typescript"
 image: "../images/2020-05-deno.png"

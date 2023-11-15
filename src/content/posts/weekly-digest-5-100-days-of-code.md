@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #5: 100 days of code'
-description: ""
+description: "100 days of code was started by Alexander Kallaway in 2016 but recently it has been gaining more momentum (we all know why). Practice is the only way to master any discipline..."
 pubDate: 2020-04-19
 tags: "100 days of code, 100daysOfCode, coding, digest, github, javascript, programming, projects, React, web, Weekly Digest"
 image: "../images/2020-04-100daysofcode.png"

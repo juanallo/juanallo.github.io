@@ -1,7 +1,7 @@
 ---
 
 title: 'Tip: list NPM scripts'
-description: ""
+description: "In this quick-tip I will show you how to list scripts from the terminal"
 pubDate: 2020-05-14
 tags: "development, javascript, nodejs, npm, Quick Tips, scripts, Whatever, yarn"
 image: "../images/tip-list-npm-scripts.jpg"

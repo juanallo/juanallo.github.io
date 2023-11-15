@@ -1,7 +1,7 @@
 ---
 
 title: 'Debugging IE11 with VirtualBox'
-description: ""
+description: "A quick setup with virtualbox to test IE11"
 pubDate: 2020-05-12
 tags: "coding, debug, debugging, development, javascript, virtualBox"
 image: "../images/2020-05-virtualbox.png"

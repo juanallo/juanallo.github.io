@@ -1,7 +1,7 @@
 ---
 
 title: 'Creating gifs from the OSX terminal in 2 easy steps'
-description: ""
+description: "I like sharing quick demos to all the stakeholders as soon as I start developing something new. I find that sharing soon helps to get early feedback and make sure that everyone’s requirements…"
 pubDate: 2020-03-31
 tags: "create gif, demo, design, develop, development, gif, movie to gif, osx terminal, presentation, ui ux, ux, ux design, ux designer"
 image: "../images/defaultHero.jpg"

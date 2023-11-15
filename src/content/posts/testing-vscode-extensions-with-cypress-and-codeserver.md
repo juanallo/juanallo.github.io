@@ -1,7 +1,7 @@
 ---
 
 title: 'Testing VSCode Extensions with Cypress and code-server'
-description: ""
+description: "There are 4 steps involved in this setup and I’ll explain in detail how to do it."
 pubDate: 2020-05-05
 tags: "cypress, development, test, testing, vscode, vscode extension"
 image: "../images/2020-04-vscode-e2e.png"

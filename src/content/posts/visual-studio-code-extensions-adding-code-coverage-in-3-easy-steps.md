@@ -1,7 +1,7 @@
 ---
 
 title: 'Visual Studio Code Extensions: Adding code coverage in 3 easy steps'
-description: ""
+description: "In this quick tutorial I will show how you can add test coverage to your vscode plugin repository."
 pubDate: 2020-04-07
 tags: "code coverage, coding, development, extension, istanbul.js, istanbulJs, javascript, Mocha, testing, visual studio code, vs code, vscode, vscode extension, web"
 image: "../images/2020-04-coverage-example.png"

@@ -1,7 +1,7 @@
 ---
 
 title: 'How to measure design effectiveness'
-description: ""
+description: "I found a method that seems to be very useful to test how effective an user interface is. The exercise is just about taking your design with a collection of words that convey positive, negative or neutral feelings and share it with others, so they can choose which words spring to their minds when looking at the design."
 pubDate: 2014-11-05
 tags: "design, effectiveness, measure, techniques, test, testing, ux, web testing"
 image: "../images/defaultHero.jpg"

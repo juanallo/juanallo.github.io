@@ -1,7 +1,7 @@
 ---
 
 title: 'Partial Application made easy with ES6'
-description: ""
+description: "In this post I will present a quick example on how ES6 can improve readability and help build code that is easier to maintain. Also, I will be exploring partial application, a nice technique to keep in your developer toolbox."
 pubDate: 2018-11-12
 tags: "development, es6, functional programming, javascript, partial application"
 image: "../images/defaultHero.jpg"

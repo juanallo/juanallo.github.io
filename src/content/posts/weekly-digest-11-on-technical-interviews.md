@@ -1,6 +1,6 @@
 ---
 title: "Weekly Digest #11: On technical Interviews"
-description: ""
+description: "Technical interviews are not a walk in the park! There are a lot of steps, challenges and pressure in a super competitive market. On the other hand, you should not be scared of the process…"
 pubDate: 2020-05-31
 tags: "interview questions, interviews, tech interview, tech interview handbook"
 image: "../images/weekly-digest-11-on-technical-interviews.jpg"

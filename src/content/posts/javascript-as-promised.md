@@ -1,6 +1,6 @@
 ---
 title: "Javascript as Promised"
-description: ""
+description: "Promises have been there for a while now, officially released in ES6 but already being supported by most browsers before that and/or polyfiled by libraries"
 pubDate: 2017-11-15T18:00:01Z
 tags: "development, javascript"
 image: "../images/2017-11-promisestates.png"

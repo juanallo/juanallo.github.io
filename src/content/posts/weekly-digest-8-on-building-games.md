@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #8: On building games'
-description: ""
+description: "Today, I want to share a list of resources I have been bookmarking to help me develop games."
 pubDate: 2020-05-10
 tags: "development, gameDev, javascript, js, unity, Weekly Digest, Whatever"
 image: "../images/weekly-digest-8-on-building-games.jpg"

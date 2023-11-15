@@ -1,7 +1,7 @@
 ---
 
 title: 'Design Project Organized'
-description: ""
+description: "A cheat-sheet that explains the different concepts and how the design project should be structured."
 pubDate: 2015-06-02
 tags: "atomic design, design process, project structure, systematic design, techniques"
 image: "../images/2015-06-design-project-structure.png"

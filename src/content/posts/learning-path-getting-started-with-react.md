@@ -1,7 +1,7 @@
 ---
 
 title: 'Learning Path: Getting started with React'
-description: ""
+description: "In this post I want to share some resources that helped me learn React and I hope they are useful for anyone starting out there."
 pubDate: 2020-05-19
 tags: "100daysOfCode, development, javascript, Learning path, React, React Fiber"
 image: "../images/2020-05-learning-react-1.png"

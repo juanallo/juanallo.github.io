@@ -1,7 +1,7 @@
 ---
 
 title: 'Micro-interactions'
-description: ""
+description: "“Great microinteractions design requires understanding the people who use the product, what they are trying to accomplish, and steps they need to take.” Microinteractions by Dan Saffer (O’Reilly) "
 pubDate: 2015-11-30
 tags: "Quotes"
 image: "../images/defaultHero.jpg"

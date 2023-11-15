@@ -1,7 +1,7 @@
 ---
 
 title: 'UX Magazine'
-description: ""
+description: "I am a fan reader of blogs and different RSS sources, I have a long list of blogs in Feedly and I use Flipboard everyday to read different types of news, but most of them about UX."
 pubDate: 2015-06-08
 tags: "Content Curation, feedly, flipboard, flipboard magazine, rss, ux magazine"
 image: "../images/2015-06-ux-magazine.jpg"

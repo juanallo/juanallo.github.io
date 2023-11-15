@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #1'
-description: ""
+description: "Best practices on JavaScript modularity: when to use named exports, how to group code and what to avoid. Check JavaScript Module Best Practices."
 pubDate: 2020-03-22
 tags: "best practices, code editors, coding, development, digest, javascript, js, vanilla JavaScript, Weekly Digest"
 image: "../images/defaultHero.jpg"

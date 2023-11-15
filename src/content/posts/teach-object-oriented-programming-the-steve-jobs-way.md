@@ -1,7 +1,7 @@
 ---
 
 title: 'Teach Object Oriented Programming, the Steve Jobs way'
-description: ""
+description: "A quote from Steve Jobs on Object Oriented Programming"
 pubDate: 2015-11-09
 tags: "object oriented programming, oop, quote, Quotes"
 image: "../images/defaultHero.jpg"

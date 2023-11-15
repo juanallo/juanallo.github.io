@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #3: Understanding Javascript Internals'
-description: ""
+description: "In this weekly digest I want to focus on resources that have helped me learn Javascript inner workings. In order to master any coding language it is necessary to understand how it works."
 pubDate: 2020-04-05
 tags: "advanced javascript, browsers, bytecode, closures, development, digest, event loop, how browsers work, howitworks, javascript, javascript engine, lexical scope, memory management, v8, Weekly Digest"
 image: "../images/weekly-digest-3-understanding-javascript-internals.jpg"

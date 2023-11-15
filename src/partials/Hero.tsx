@@ -1,13 +1,13 @@
 import {
   GradientText,
   HeroAvatar,
-  HeroSocial,
   Section,
 } from "astro-boilerplate-components";
 
 import avatar from "@/images/avatar.png";
 import linkedinIcon from "@/images/linkedin-icon.png";
 import twitterIcon from "@/images/twitter-icon.png";
+import { HeroSocial } from "./HeroSocial";
 
 const Hero = () => (
   <Section>

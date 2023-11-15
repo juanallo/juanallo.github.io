@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #2: Latest web open source releases'
-description: ""
+description: "Latest releases on the web. Storybook 5.3 , ts 3.8 and 3.9 beta, nextjs 9.3, babeljs 7.9 (in prep for 8.0), prettier 2.0, git 2.26 and react-router v6 alpha."
 pubDate: 2020-03-29
 tags: "babeljs, development, digest, git, javascript, new releases, nextjs, npm, open source, open source software, prettier, storybook, typescript, web, Weekly Digest, Whatever"
 image: "../images/defaultHero.jpg"

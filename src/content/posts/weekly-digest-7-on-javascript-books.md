@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #7: On Javascript books'
-description: ""
+description: "Whether you are learning JS from scratch or have been working with it for a while now, I believe you will find great value on the following list of books."
 pubDate: 2020-05-03
 tags: "books, development, digest, javascript, js, Weekly Digest"
 image: "../images/2020-05-js-books-e1588543641560.png"

@@ -1,6 +1,6 @@
 ---
 title: "Dependency Graph for Javascript Projects"
-description: ""
+description: "I was reading this Javascript development setup post by Eric Elliot, when I stumbled upon a super cool NPM package to generate dependency graphs. The name is dependency-cruiser."
 pubDate: 2020-03-24
 tags: "coding, dependency analysis, dependency graph, dependency-cruiser, front-end, frontend, graphviz, javascript, node, nodejs, npm, package manager, refactor, software"
 image: "../images/2020-03-dependencygraph.png"
@@ -50,7 +50,9 @@ depcruise --include-only "^src" --output-type dot src | dot -T svg > dependencyg
 
 And the outcome will look something like the following:
 
-###### ![dependencygraph](../images/2020-03-dependencygraph.png)[Example from react flash cards](https://github.com/juanallo/react-flashcards)
+![dependencygraph](../images/2020-03-dependencygraph.png)
+
+[Example from react flash cards](https://github.com/juanallo/react-flashcards)
 
 ### Command explained
 

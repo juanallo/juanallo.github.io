@@ -16,8 +16,8 @@ const Navbar = () => (
               src="/jar.gif"
               alt="Logo"
               className="pr-2"
-              width="60px"
-              height="35px"
+              width="60"
+              height="35"
             />
           }
           name="Juan Manuel Allo Ron"

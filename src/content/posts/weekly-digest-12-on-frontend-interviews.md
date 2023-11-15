@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #12: on front-end interviews'
-description: ""
+description: "Last week I published tons of resources on the technical interview process. Today I want to focus a little bit more on frontend. Here is a curated list of HTML, CSS, JS and system design questions."
 pubDate: 2020-06-07
 tags: "front-end, frontend, interview questions, interviews, javascript, tech interview, Weekly Digest"
 image: "../images/weekly-digest-12-on-frontend-interviews.jpg"

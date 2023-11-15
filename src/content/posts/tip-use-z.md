@@ -1,7 +1,7 @@
 ---
 
 title: 'Tip: use Z'
-description: ""
+description: "Aren’t you tired of always typing the same routes in the terminal? When I found z it changed my productivity. What’s z? A terminal command to help you quickly navigate across directories…"
 pubDate: 2020-05-28
 tags: "coding, development, osx terminal, Quick Tips"
 image: "../images/tip-use-z.jpg"

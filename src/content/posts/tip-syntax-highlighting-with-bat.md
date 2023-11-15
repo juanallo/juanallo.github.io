@@ -1,7 +1,7 @@
 ---
 
 title: 'Tip: Syntax Highlighting with BAT'
-description: ""
+description: "Terminal command cat is a standard tool to print file contents to the console. I use it all the time but recently I found bat and it changed my life!"
 pubDate: 2020-05-07
 tags: "coding, development, Homebrew, osx terminal, programming, Quick Tips, tips"
 image: "../images/2020-05-cat-vs-bat.png"

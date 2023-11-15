@@ -1,6 +1,6 @@
 ---
 title: "Callbacks in Javascript"
-description: ""
+description: "Quick recap on what a JS callback is and the common problems around using them"
 pubDate: 2017-11-15T16:00:01Z
 tags: "development, javascript"
 image: "../images/callbacks.jpg"

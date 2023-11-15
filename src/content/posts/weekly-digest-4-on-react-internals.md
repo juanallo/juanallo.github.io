@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #4: On React internals'
-description: ""
+description: "This weekly digest focuses on React internals. Understanding how react works internally helps to follow best practices when coding, better understanding on performance and extra skills to debug those hard bugs."
 pubDate: 2020-04-12
 tags: "digest, howitworks, internals, javascript, React, React Fiber, web, Weekly Digest"
 image: "../images/2020-04-state-change.png"

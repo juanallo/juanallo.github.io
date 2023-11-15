@@ -1,7 +1,7 @@
 ---
 
 title: 'Customer Journey Framework'
-description: ""
+description: "In the age of the customer and the increased market for selling experiences rather than sole services, it is really important to understand the journey users will follow."
 pubDate: 2016-09-13
 tags: "Customer Journey, CX, ux"
 image: "../images/2016-09-gml_cx-researchbrandedimage1.jpg"

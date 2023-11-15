@@ -1,7 +1,7 @@
 ---
 
 title: 'Weekly Digest #10: On Remix, Snowpack, Rome and Web-vitals'
-description: ""
+description: "The never ending flow of innovation is what I love about the web. There are so many great ideas! In the past few months a lot of innovation happened and in this weekly digest I want to share the most important ones."
 pubDate: 2020-05-24
 tags: "development, javascript, js, React, remix, romeJS, web, web vitals, Weekly Digest"
 image: "../images/2020-05-new-projects-in-town-big-2.png"

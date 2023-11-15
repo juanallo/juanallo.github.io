@@ -1,7 +1,7 @@
 ---
 
 title: 'Lazy loading images with Intersection Observer'
-description: ""
+description: "Images play a huge role in loading performance. Websites loading tons of images upfront can be paying a high price in terms of user experience…"
 pubDate: 2020-05-26
 tags: "development, javascript, js, lazy loading, performance, techniques, vanilla JavaScript"
 image: "../images/2020-05-image-gallery-example.png"

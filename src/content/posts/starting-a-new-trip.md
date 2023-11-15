@@ -1,7 +1,7 @@
 ---
 
 title: 'Starting a new Trip'
-description: ""
+description: "If you are interested in User Experience, front-end  & mobile development, and new technology trends you are welcome to follow me on this journey."
 pubDate: 2014-10-28
 tags: "Whatever"
 image: "../images/starting-a-new-trip.jpg"

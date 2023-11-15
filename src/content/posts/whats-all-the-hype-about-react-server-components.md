@@ -1,7 +1,7 @@
 ---
 
 title: 'What''s all the hype about React Server Components?'
-description: ""
+description: "A couple of weeks ago the React team announced React Server Components. In this article today I will explain what it is, why they came up with this strategy and how to get prepared for it."
 pubDate: 2021-01-07
 tags: "development, javascript, js, performance, React, react server components, ssr"
 image: "../images/2020-12-imgur-loading-sequence.png"
@@ -40,13 +40,13 @@ Let's see this in more detail with an example:
 
 I took Imgur as an as an example for illustrating this common problem, but most of the websites using react will have a similar loading pattern. For the example I am loading <https://imgur.com/> and running a performance trace.
 
-[![](../images/2020-12-imgur-loading-sequence.png)](https://juanmanuelalloron.files.wordpress.com/2020/12/imgur-loading-sequence.png)
+![Loading page sequence](../images/2020-12-imgur-loading-sequence.png)
 
 Loading sequence
 
 In the loading sequence we can see that there are empty frames. These reflect the time the critical resources (JS, CSS, images, etc) took to download + the roundtrip for the main API call. We can see that in more detail below:
 
-[![](../images/2020-12-imgur-loading-trace.png)](https://juanmanuelalloron.files.wordpress.com/2020/12/imgur-loading-trace.png)
+![Loading page trace](../images/2020-12-imgur-loading-trace.png)
 
 Performance trace showing initial loading sequence
 
@@ -74,7 +74,7 @@ Finally, traditional SSR still requires the whole React tree to be hydrated in t
 
 Here is an article from Addy Osmani that explains [the cost of client-side rehydration](https://addyosmani.com/blog/rehydration/) in more detail.
 
-## Why not just [JAMStac](https://jamstack.org/)[k](https://jamstack.org/)?
+## Why not just [JAMStack]](https://jamstack.org/)?
 
 Going into a more offline/deploy-time rendering strategy and serving static content is a perfectively valid strategy that can take you there but it won't cover all the scenarios in the spectrum. Highly interactive sites won't be able to execute this strategy as easy as other more static sites like blogs.
 
