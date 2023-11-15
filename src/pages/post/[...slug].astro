@@ -28,7 +28,7 @@ const similar = findSimilarPosts(entry, blogEntries);
 const showSimilar = similar.length > 0;
 ---
 
-<Base head={{ ...entry.data, title }}>
+<Base head={{ ...entry.data, title, url: `/post/${entry.slug}/` }}>
   <JSONLD data={entry.data} />
   <BlogPost data={entry.data}>
     <Content />
