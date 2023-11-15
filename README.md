@@ -48,15 +48,15 @@ All commands are run from the root of the project, from a terminal:
 - [x] Publish to github pages
 - [x] Integrate with google analytics
 - [x] Add permanent redirects for old URLS
-- [ ] Check performance
-- [ ] Test OG support
+- [x] Check performance
+- [x] Test OG support
 - [x] Add share support (look for plugins)
 - [ ] Switch juanmanuelalloron.com domain to github pages
 
 --- 
 Release
-- [ ] Infer reading time
 - [ ] Add support for mermaid https://github.com/remcohaszing/rehype-mermaid
 - [ ] Add subscribe to newsletter
 - [ ] github action to publish scheduled posts
 - [ ] Github actions to publish to twitter, linkedin, pinterest, 
+- [ ] Infer reading time

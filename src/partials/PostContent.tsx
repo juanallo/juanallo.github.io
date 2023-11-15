@@ -16,9 +16,10 @@ const PostContent = (props: IPostContentProps) => {
         <div className="py-4">
           <img
             className="w-full rounded-lg object-contain object-center"
+            width={props.content.image.width}
+            height={props.content.image.height}
             src={props.content.image.src}
             alt={props.content.imgAlt ?? ""}
-            loading="lazy"
           />
         </div>
       )}
