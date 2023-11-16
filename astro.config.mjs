@@ -12,6 +12,7 @@ import rehypeExternalLinks from "rehype-external-links";
 import { AppConfig } from "./src/utils/AppConfig";
 import partytown from "@astrojs/partytown";
 import redirects from "./redirects.json";
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
@@ -36,6 +37,7 @@ export default defineConfig({
     tailwind({}),
     sitemap(),
     robotsTxt(),
+    mdx(),
     astroImageTools,
     partytown({
       config: {
