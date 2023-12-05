@@ -1,5 +1,15 @@
 declare module 'astro:content' {
 	interface Render {
+		'.mdx': Promise<{
+			Content: import('astro').MarkdownInstance<{}>['Content'];
+			headings: import('astro').MarkdownHeading[];
+			remarkPluginFrontmatter: Record<string, any>;
+		}>;
+	}
+}
+
+declare module 'astro:content' {
+	interface Render {
 		'.md': Promise<{
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
@@ -346,6 +356,13 @@ declare module 'astro:content' {
 "teach-object-oriented-programming-the-steve-jobs-way.md": {
 	id: "teach-object-oriented-programming-the-steve-jobs-way.md";
   slug: "teach-object-oriented-programming-the-steve-jobs-way";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"teaching-llms-to-play-the-drums.md": {
+	id: "teaching-llms-to-play-the-drums.md";
+  slug: "teaching-llms-to-play-the-drums";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

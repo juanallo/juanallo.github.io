@@ -29,7 +29,7 @@ export default defineConfig({
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: "wrap" }],
       [rehypeClassNames, { "p a, li a": "highlight", img: "mdImage" }],
-      [rehypeExternalLinks, { rel: ["nofollow noopener noreferrer"] }],
+      [rehypeExternalLinks, { rel: ["nofollow noopener noreferrer"], target: '_blank' }],
     ],
   },
   integrations: [
