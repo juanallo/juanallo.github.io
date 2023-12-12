@@ -192,6 +192,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"astro-themes-templates-power-next-build.md": {
+	id: "astro-themes-templates-power-next-build.md";
+  slug: "astro-themes-templates-power-next-build";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "back-in-the-game.md": {
 	id: "back-in-the-game.md";
   slug: "back-in-the-game";
