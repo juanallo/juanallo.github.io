@@ -1,11 +1,11 @@
 ---
-import { BlogGallery } from "@/partials/BlogGallery";
+import { BlogGallery } from '@/partials/BlogGallery';
 
 const { posts } = Astro.props;
 ---
 
-<div class="mx-auto max-w-prose mt-8 px-3">
-  <p class="text-slate-700 text-center highlight p-0">---</p>
-  <h2 class="text-xl mb-5 mt-1 text-slate-300 text-center">Similar Articles</h2>
+<div class='mx-auto mt-8 max-w-prose px-3'>
+  <p class='highlight p-0 text-center text-slate-700'>---</p>
+  <h2 class='mb-5 mt-1 text-center text-xl text-slate-300'>Similar Articles</h2>
   <BlogGallery postList={posts} />
 </div>

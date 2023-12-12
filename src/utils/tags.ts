@@ -1,19 +1,20 @@
-import { ColorTags } from "@/partials/Tags";
-import { slug } from "github-slugger";
+import { slug } from 'github-slugger';
+
+import { ColorTags } from '@/partials/Tags';
 
 export function getTags(post) {
-  return post.data.tags.split(", ").map((tag) => tag.toLowerCase().trim());
+  return post.data.tags.split(', ').map((tag) => tag.toLowerCase().trim());
+}
+
+function capitalizeFirstLetter(string: string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 export function getFormattedTags(post) {
   return getTags(post).map((tag) => capitalizeFirstLetter(tag));
 }
 
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function getRandomInt(max) {
+function getRandomInt(max: number) {
   return Math.floor(Math.random() * max);
 }
 
@@ -26,14 +27,14 @@ export function getRandomColor() {
 export function getAllTagsFromPosts(posts): [string] {
   const allTagsSet = new Set();
 
-  for (const post of posts) {
+  posts.forEach((post) => {
     const tags = post.data.tags
-      .split(", ")
+      .split(', ')
       .map((tag) => tag.toLowerCase().trim());
-    for (const tag of tags) {
+    tags.forEach((tag) => {
       allTagsSet.add(capitalizeFirstLetter(tag));
-    }
-  }
+    });
+  });
 
   const allTags = [...allTagsSet] as [string]; // Convert the set to an array
 
@@ -46,7 +47,7 @@ export const slugify = (content: string) => {
   return slug(
     content
       .toLowerCase()
-      .normalize("NFD")
-      .replace(/\p{Diacritic}/gu, "")
+      .normalize('NFD')
+      .replace(/\p{Diacritic}/gu, '')
   );
 };

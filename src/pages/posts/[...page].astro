@@ -1,24 +1,22 @@
 ---
-import type {
-  FrontmatterPage,
-} from 'astro-boilerplate-components';
+import type { FrontmatterPage } from 'astro-boilerplate-components';
 import {
   NewerOlderPagination,
   PaginationHeader,
   Section,
 } from 'astro-boilerplate-components';
 
+import { BlogGallery } from '@/partials/BlogGallery';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { getPublished } from '@/utils/Posts';
-import { BlogGallery } from '@/partials/BlogGallery';
 
 type GetStaticPaths = {
   paginate: any;
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const sortedPosts = await getPublished()
+  const sortedPosts = await getPublished();
 
   // Return a paginated collection of paths for all posts
   return paginate(sortedPosts, { pageSize: 12 });

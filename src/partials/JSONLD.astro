@@ -1,6 +1,6 @@
 ---
-import { AppConfig } from "@/utils/AppConfig";
-import avatar from "@/images/avatar.png";
+import avatar from '@/images/avatar.png';
+import { AppConfig } from '@/utils/AppConfig';
 
 const {
   data: { title, description, image, pubDate },
@@ -9,19 +9,19 @@ const {
 const finalImage = image ? image.src : avatar.src;
 
 const schema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
+  '@context': 'https://schema.org',
+  '@type': 'Article',
   headline: title,
   image: finalImage,
   description,
   // "keywords": tags.join(' '),
   author: {
-    "@type": "Person",
+    '@type': 'Person',
     name: AppConfig.author,
   },
   mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": "https://google.com/article",
+    '@type': 'WebPage',
+    '@id': 'https://google.com/article',
   },
 };
 
@@ -30,6 +30,6 @@ if (pubDate) {
 }
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(schema)}>
+<script type='application/ld+json' set:html={JSON.stringify(schema)}>
 
 </script>

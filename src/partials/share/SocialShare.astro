@@ -1,12 +1,12 @@
 ---
-import EmailShareButton from "./Email.astro";
-import FacebookShareButton from "./Facebook.astro";
-import HackerNewsShareButton from "./HackerNews.astro";
-import LinkedInShareButton from "./Linkedin.astro";
-import RedditShareButton from "./Reddit.astro";
-import TwitterShareButton from "./Twitter.astro";
-import type ButtonProps from "./types";
-
+import EmailShareButton from './Email.astro';
+import FacebookShareButton from './Facebook.astro';
+import HackerNewsShareButton from './HackerNews.astro';
+import LinkedInShareButton from './Linkedin.astro';
+import RedditShareButton from './Reddit.astro';
+import TwitterShareButton from './Twitter.astro';
+import type ButtonProps from './types';
+// eslint-disable-next-line unused-imports/no-unused-vars
 interface Props extends ButtonProps {
   buttons?: Object[];
 }
@@ -29,7 +29,7 @@ const {
 } = Astro.props;
 ---
 
-<div class="flex gap-3">
+<div class='flex gap-3'>
   {buttons.map((Button) => (
     <Button url={url} description={description} via={via} title={title} />
   ))}

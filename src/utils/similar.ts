@@ -5,7 +5,7 @@ function jaccardSimilarity(setA, setB) {
 }
 
 function getTags(post) {
-  return post.data.tags.split(", ").map((t) => t.toLowerCase().trim());
+  return post.data.tags.split(', ').map((t) => t.toLowerCase().trim());
 }
 
 function findSimilarPosts(selectedPost, allPosts) {
@@ -14,12 +14,11 @@ function findSimilarPosts(selectedPost, allPosts) {
   const similarityScores = [];
 
   // Calculate similarity scores for all posts
-  for (let i = 0; i < allPosts.length; i++) {
-    const post = allPosts[i];
+  allPosts.forEach((post) => {
     const postTags = new Set(getTags(post));
     const similarity = jaccardSimilarity(selectedTags, postTags);
     similarityScores.push({ post, similarity });
-  }
+  });
 
   // Sort posts by similarity in descending order
   similarityScores.sort((a, b) => b.similarity - a.similarity);

@@ -25,4 +25,4 @@ export const get = async () => {
     // (optional) inject custom xml
     customData: `<language>en-us</language>`,
   });
-}
+};

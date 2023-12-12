@@ -1,10 +1,10 @@
 ---
-import "./base.css";
+import './base.css';
 
-import avatar from "@/images/avatar.png";
-import { Footer } from "@/partials/Footer";
-import { Navbar } from "@/partials/Navbar";
-import { AppConfig } from "@/utils/AppConfig";
+import avatar from '@/images/avatar.png';
+import { Footer } from '@/partials/Footer';
+import { Navbar } from '@/partials/Navbar';
+import { AppConfig } from '@/utils/AppConfig';
 
 const {
   head: { title, description, canonical, noindex, url, image, imgAlt, pubDate },
@@ -17,44 +17,44 @@ const height = image?.height ?? avatar.height;
 const format = image?.format ?? avatar?.format;
 ---
 
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>{title}</title>
-    <meta name="theme-color" content="#111827" />
-    <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
-    <link rel="icon" type="image/x-icon" href="/favicon.jpg" />
-    <link rel="apple-touch-icon" href="/favicon.jpg" />
+    <meta name='theme-color' content='#111827' />
+    <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
+    <link rel='icon' type='image/x-icon' href='/favicon.jpg' />
+    <link rel='apple-touch-icon' href='/favicon.jpg' />
 
-    <meta name="description" content={description} />
-    <meta name="author" content={AppConfig.author} />
+    <meta name='description' content={description} />
+    <meta name='author' content={AppConfig.author} />
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
-    <meta property="og:title" content={title} />
-    <meta property="og:site_name" content={AppConfig.site_name} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content={path} />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:image" itemprop="image" content={finalImage} />
+    <meta property='og:title' content={title} />
+    <meta property='og:site_name' content={AppConfig.site_name} />
+    <meta property='og:description' content={description} />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content={path} />
+    <meta property='og:locale' content='en_US' />
+    <meta property='og:image' itemprop='image' content={finalImage} />
     {imgAlt && <meta property="og:image:alt" content={imgAlt} />}
 
-    <meta property="og:image:width" content={width} />
-    <meta property="og:image:height" content={height} />
-    <meta property="og:image:type" content={format} />
+    <meta property='og:image:width' content={width} />
+    <meta property='og:image:height' content={height} />
+    <meta property='og:image:type' content={format} />
 
-    <meta name="twitter:text:title" content={title} />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:url" content={path} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={finalImage} />
-    <meta name="twitter:creator" content="@juan_allo" />
-    <meta name="twitter:site" content="@juan_allo" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image:width" content={width} />
-    <meta name="twitter:image:height" content={height} />
+    <meta name='twitter:text:title' content={title} />
+    <meta name='twitter:title' content={title} />
+    <meta name='twitter:url' content={path} />
+    <meta name='twitter:description' content={description} />
+    <meta name='twitter:image' content={finalImage} />
+    <meta name='twitter:creator' content='@juan_allo' />
+    <meta name='twitter:site' content='@juan_allo' />
+    <meta name='twitter:card' content='summary' />
+    <meta name='twitter:image:width' content={width} />
+    <meta name='twitter:image:height' content={height} />
 
     {pubDate && (
       <meta name="article:published_time" content={pubDate.toISOString()} />
@@ -63,28 +63,28 @@ const format = image?.format ?? avatar?.format;
 
     <!-- Google tag (gtag.js) -->
     <script
-      type="text/partytown"
+      type='text/partytown'
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-MXRS5WCX8T"
+      src='https://www.googletagmanager.com/gtag/js?id=G-MXRS5WCX8T'
     >
 
     </script>
-    <script type="text/partytown">
+    <script type='text/partytown'>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-MXRS5WCX8T");
+      gtag('config', 'G-MXRS5WCX8T');
     </script>
   </head>
-  <body class="bg-slate-900 text-gray-100">
+  <body class='bg-slate-900 text-gray-100'>
     <Navbar />
 
     <slot></slot>
 
-    <div class="mt-8 w-full">
+    <div class='mt-8 w-full'>
       <Footer />
     </div>
   </body>

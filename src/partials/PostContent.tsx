@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
 type IPostContentProps = {
   content: any;
@@ -9,7 +9,7 @@ const PostContent = (props: IPostContentProps) => {
   const showImage =
     !props.content.hideHero &&
     props.content.image &&
-    !props.content.image.src.includes("defaultHero.jpg");
+    !props.content.image.src.includes('defaultHero.jpg');
   return (
     <div className="mx-auto mt-5 max-w-prose">
       {showImage && (
@@ -19,7 +19,7 @@ const PostContent = (props: IPostContentProps) => {
             width={props.content.image.width}
             height={props.content.image.height}
             src={props.content.image.src}
-            alt={props.content.imgAlt ?? ""}
+            alt={props.content.imgAlt ?? ''}
           />
         </div>
       )}
