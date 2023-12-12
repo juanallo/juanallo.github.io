@@ -1,18 +1,15 @@
-import { PostHeader, Section } from 'astro-boilerplate-components';
-import type { ReactNode } from 'react';
+import type { CollectionEntry } from 'astro:content';
+import { Section } from 'astro-boilerplate-components';
+import type { PropsWithChildren } from 'react';
 
 import { AppConfig } from '@/utils/AppConfig';
 import { getFormattedTags, getRandomColor, slugify } from '@/utils/tags';
 
 import { PostContent } from './PostContent';
+import { PostHeader } from './PostHeader';
 import { Tags } from './Tags';
 
-type IBlogPostProps = {
-  data: any;
-  children: ReactNode;
-};
-
-const BlogPost = (props: IBlogPostProps) => (
+const BlogPost = (props: PropsWithChildren<CollectionEntry<'posts'>>) => (
   <Section>
     <PostHeader content={props.data} author={AppConfig.author} />
     <PostContent content={props.data}>{props.children}</PostContent>

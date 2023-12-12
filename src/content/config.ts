@@ -11,7 +11,7 @@ const postsCollection = defineCollection({
       image: image(),
       imgAlt: z.string(),
       hideHero: z.boolean().default(false).optional(),
-      tags: z.string().optional(),
+      tags: z.string().default('whatever'),
       draft: z.boolean().default(false).optional(),
     }),
 });

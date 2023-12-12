@@ -26,7 +26,7 @@ export const ColorTags = {
 } as const;
 
 type ITagsProps = {
-  color: Values<typeof ColorTags>;
+  color: keyof typeof ColorTags;
   children: ReactNode;
 };
 
