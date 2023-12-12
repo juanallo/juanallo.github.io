@@ -206,6 +206,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"common-css-layouts-in-tailwind.md": {
+	id: "common-css-layouts-in-tailwind.md";
+  slug: "common-css-layouts-in-tailwind";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "create-quick-and-stunning-graphs.md": {
 	id: "create-quick-and-stunning-graphs.md";
   slug: "create-quick-and-stunning-graphs";

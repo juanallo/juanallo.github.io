@@ -23,7 +23,7 @@ export function getRandomColor() {
   return ColorTags[key];
 }
 
-export function getAllTagsFromPosts(posts) {
+export function getAllTagsFromPosts(posts): [string] {
   const allTagsSet = new Set();
 
   for (const post of posts) {
@@ -35,7 +35,7 @@ export function getAllTagsFromPosts(posts) {
     }
   }
 
-  const allTags = [...allTagsSet]; // Convert the set to an array
+  const allTags = [...allTagsSet] as [string]; // Convert the set to an array
 
   return allTags;
 }
