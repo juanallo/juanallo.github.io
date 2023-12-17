@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { GradientText, Section } from 'astro-boilerplate-components';
+
+import BlogGallery from '@/partials/BlogGallery.astro';
+
+export type Props = {
+  postList: Array<CollectionEntry<'posts'>>;
+};
+
+const { postList } = Astro.props;
+---
+
+<Section>
+  <div class='mb-6 flex items-baseline justify-between font-bold'>
+    <div class='text-2xl font-bold'>
+      Recent <GradientText>Posts</GradientText>
+    </div>
+
+    <div class='text-base'>
+      <a href='/posts/'>View all Posts →</a>
+    </div>
+  </div>
+  <BlogGallery postList={postList} />
+  <div class='pt-8 text-center'>
+    <a href='/posts/2/'>Older Posts →</a>
+  </div>
+</Section>

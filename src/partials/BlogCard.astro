@@ -1,0 +1,26 @@
+---
+import { format } from 'date-fns';
+---
+
+<a class='hover:translate-y-1' href={`/post/${Astro.props.instance.slug}/`}>
+  <div class='h-full overflow-hidden rounded-md bg-slate-800'>
+    <div class='aspect-h-2 aspect-w-3'>
+      <img
+        class='h-full w-full object-cover object-center'
+        src={Astro.props.instance.data.image.src}
+        alt={Astro.props.instance.data.imgAlt}
+        loading='lazy'
+      />
+    </div>
+
+    <div class='px-3 pb-6 pt-4 text-center'>
+      <h2 class='text-xl font-semibold'>{Astro.props.instance.data.title}</h2>
+
+      <div class='mt-1 text-xs text-gray-400'>
+        {format(new Date(Astro.props.instance.data.pubDate), 'LLL d, yyyy')}
+      </div>
+
+      <div class='mt-2 text-sm'>{Astro.props.instance.data.description}</div>
+    </div>
+  </div>
+</a>

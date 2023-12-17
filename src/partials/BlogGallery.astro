@@ -1,0 +1,15 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import BlogCard from './BlogCard.astro';
+
+export interface Props {
+  postList: Array<CollectionEntry<'posts'>>;
+}
+
+const { postList } = Astro.props;
+---
+
+<div class='grid grid-cols-1 gap-6 md:grid-cols-3'>
+  {postList.map((elt) => <BlogCard key={elt.slug} instance={elt} />)}
+</div>
