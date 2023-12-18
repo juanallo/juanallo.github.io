@@ -13,10 +13,10 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@astrojs/react": "^3.0.3",
-    "@astrojs/rss": "^0.2.2",
-    "@astrojs/sitemap": "^0.1.2",
-    "@astrojs/tailwind": "^5.0.2",
+    "@astrojs/react": "^3.0.7",
+    "@astrojs/rss": "^4.0.1",
+    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/tailwind": "^5.0.3",
     "@commitlint/cli": "^17.8.0",
     "@commitlint/config-conventional": "^17.8.0",
     "@jridgewell/sourcemap-codec": "^1.4.15",
@@ -25,7 +25,7 @@
     "@types/react": "^18.2.28",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
-    "astro": "3.3.0",
+    "astro": "^4.0.6",
     "astro-eslint-parser": "^0.2.2",
     "astro-imagetools": "^0.6.10",
     "astro-robots-txt": "^0.3.2",
@@ -50,7 +50,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "@astrojs/mdx": "^1.1.5",
+    "@astrojs/mdx": "^2.0.1",
     "@astrojs/partytown": "^2.0.2",
     "astro-boilerplate-components": "^1.0.15",
     "date-fns": "^2.28.0",
