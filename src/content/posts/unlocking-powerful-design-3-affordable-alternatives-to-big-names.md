@@ -2,11 +2,10 @@
 
 title: 'Unlocking Powerful Design: 3 Affordable Alternatives to Big Names'
 description: ""
-pubDate: 2023-09-08
+pubDate: 2024-02-08
 tags: "art, Content Curation, design process, ux, Whatever"
 image: "../images/2023-09-canva-1.jpg"
 imgAlt: "A notebook showcasing Canva, Photopea and Inkscape"
-draft: true
 ---
 We all know the big names and how you can create amazing things using them. But let’s be real, not everyone has the money to spend on these tools. Also these tools usually require some training. So what’s the alternative?
 
