@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"creating-flowcharts-and-mindmaps-with-chatgpt.md": {
+	id: "creating-flowcharts-and-mindmaps-with-chatgpt.md";
+  slug: "creating-flowcharts-and-mindmaps-with-chatgpt";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "creating-gifs-from-the-osx-terminal-in-2-easy-steps.md": {
 	id: "creating-gifs-from-the-osx-terminal-in-2-easy-steps.md";
   slug: "creating-gifs-from-the-osx-terminal-in-2-easy-steps";
@@ -349,6 +356,13 @@ declare module 'astro:content' {
 "react-summit-remote-edition-highlights.md": {
 	id: "react-summit-remote-edition-highlights.md";
   slug: "react-summit-remote-edition-highlights";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"revamping-blog-astro.md": {
+	id: "revamping-blog-astro.md";
+  slug: "revamping-blog-astro";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
