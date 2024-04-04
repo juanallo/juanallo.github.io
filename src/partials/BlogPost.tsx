@@ -15,12 +15,11 @@ const BlogPost = (props: PropsWithChildren<CollectionEntry<'posts'>>) => (
     <PostContent content={props.data}>{props.children}</PostContent>
     <hr className="prose mx-auto my-8 h-[1px] border-0 bg-slate-700 " />
     <p className="mx-auto max-w-prose">
-      Catch up with me on Twitter:
+      Catch up with me on X (twitter):
       <a
         className="highlight px-2 font-bold"
         href="https://twitter.com/juan_allo"
-        target="_blank"
-      >
+        target="_blank">
         @juan_allo
       </a>
     </p>
