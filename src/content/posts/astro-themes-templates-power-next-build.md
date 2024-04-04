@@ -1,12 +1,11 @@
 ---
 title: "Astro Themes and Templates to Power Your Next Build"
 description: "Looking for themes and templates to style your Astro site? There are lots of great places to start. Save hours of aimless searching with my handpicked collection"
-pubDate: 2023-12-12T16:00:01Z
+pubDate: 2024-04-03T16:00:01Z
 tags: "astro, astrojs, templates, frontend, javascript, web, coding, weekly-digest, digest, showcase, web-design"
 image: "../images/astro-themes-templates-power-next-build.png"
 imgAlt: "Astro's official themes showcase site"
 hideHero: true
-draft: true
 ---
 
 Looking for themes and templates to style your Astro site? There are lots of great places to start. Save hours of aimless searching with my handpicked collection spanning everything from beautiful pro designs to free community starting points. Consider this your Astro themes treasure trove to finally stop debating designs and start building faster!
