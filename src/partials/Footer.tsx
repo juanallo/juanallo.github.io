@@ -8,7 +8,7 @@ const Footer = () => (
   <>
     <Section>
       <p className="w-full text-center ">
-        @2023 {AppConfig.site_name}. All Rights reserved
+        @{new Date().getFullYear()} {AppConfig.site_name}. All Rights reserved
       </p>
     </Section>
     <Fill />
