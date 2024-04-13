@@ -1,10 +1,9 @@
 ---
 title: Revamping my blog with Astro
 description: I've decided to move from Wordpress to a custom setup. I'll share why I made this choice and the insights I've gained in this blog post!
-pubDate: 2024-04-12T16:00:01Z
+pubDate: 2024-04-13T16:00:01Z
 image: '../images/revamping-blog-astro/revamping-blog-astro.jpg'
 imgAlt: 'A screenshot of my new blog in a floating laptop'
-draft: true
 tags: "chatgpt, graph-visualization, viz, creativity, visualization-tools, information-design, tech-tricks, innovation, learning, creativity, data, tech-tools, diagramming"
 ---
 I've finally decided to transition away from Wordpress and create a custom setup. Yes, I'm another engineer with the seemingly crazy idea of building my own blog (shocking, I know).
@@ -59,7 +58,7 @@ Astro offers a good set of starter projects. I used this one to inspire my desig
 
 - https://astro.build/themes/details/astro-boilerplate/
 
-If you are looking for some inspiration or starters check out my **Astro Themes and Templates to Power Your Next Build** post**.**
+If you are looking for some inspiration or starters check out my [Astro Themes and Templates to Power Your Next Build post](/post/astro-themes-templates-power-next-build/)
 
 ## Technical Details
 
@@ -67,7 +66,7 @@ In the following part I’ll lay down some things I learned that are useful for 
 
 ### Markdown and plugins
 
-Astro comes with MD integration out of the box, so I didn’t need to use much. 
+Astro comes with MD integration out of the box, so I didn’t need to do much. 
 
 It also supports remark and Rehype plugins so there is a lot of customization that can be done. I added a few useful plugins that I needed:
 
@@ -90,12 +89,6 @@ markdown: {
     ],
   },
 ```
-
-### SEO and share tools
-
-For any blog to be found and shared it’s critical to nail SEO and Open Graph. I just put together a new blog post that explains how you can do this in detail.
-
-Check **Nailing SEO with AstroJS** to learn more about it.
 
 ### Recommended posts
 
@@ -227,7 +220,7 @@ Finally, my domain is on Wordpress (I bought it a while back). It was pretty sim
 
 ## Future Plans
 
-It was a great adventure and I am already seeing the flexibility that I needed. I am already seeing some opportunities to continue improving how I blog:
+It was a great adventure and I am already seeing the flexibility that I needed. I am also already seeing some opportunities to continue improving how I blog:
 
 ### Schedule posts
 
