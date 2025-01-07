@@ -1,11 +1,10 @@
 ---
 title: 7 days of JS by ChatGPT
 description: I decided to team up with ChatGPT to create a 7-day JavaScript challenge, inspired by the popular 30 days of JS. The results? Truly amazing!
-pubDate: 2023-11-04T16:00:01Z
+pubDate: 2024-06-12T16:00:01Z
 tags: "web, frontend, AI, coding, javascript, projects, LLM, chatGpt"
 image: '../images/7-days-of-js-by-chapgpt.jpg'
 imgAlt: 'An Artificial intelligence solving JS challenges in a computer'
-draft: true
 ---
 
 Are you ready to embark on a JavaScript adventure? We all know that practice makes perfect, especially in the world of coding. But let's face it, sometimes the typical coding challenge platforms can be a bit, well, generic.

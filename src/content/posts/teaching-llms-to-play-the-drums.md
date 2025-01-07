@@ -1,12 +1,11 @@
 ---
 title: "Teaching LLMs to play the drums"
 description: "In this experiment I created a text notation so ChatGPT, Claude.AI and Bard could create some music with it"
-pubDate: 2023-12-05T16:00:01Z
+pubDate: 2024-05-12T16:00:01Z
 tags: "web, music, frontend, AI, coding, javascript, projects, LLM, chatGpt, claudeAi, bard"
 image: "../images/drum-kit-player.jpg"
 imgAlt: "Drum Kit player UI"
 hideHero: true
-draft: true
 ---
 
 I’ve been playing quite a bit with LLMs and while they are great at producing text you can also do other things with some tricks. 

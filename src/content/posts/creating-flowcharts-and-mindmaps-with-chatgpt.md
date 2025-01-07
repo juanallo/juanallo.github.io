@@ -1,10 +1,9 @@
 ---
 title: Creating Flowcharts and Mindmaps with ChatGPT
 description: I've been experimenting with ChatGPT and discovered a cool trick that lets you create diverse graph visualizations effortlessly.
-pubDate: 2023-11-15T16:00:01Z
+pubDate: 2024-08-12T16:00:01Z
 image: '../images/creating-flowcharts-and-mindmaps-with-chatgpt.jpg'
 imgAlt: 'Chat GPT, Graphviz and MermaidJS represented as 3 house emblems'
-draft: true
 tags: "chatgpt, graph-visualization, viz, creativity, visualization-tools, information-design, tech-tricks, innovation, learning, creativity, data, tech-tools, diagramming"
 ---
 

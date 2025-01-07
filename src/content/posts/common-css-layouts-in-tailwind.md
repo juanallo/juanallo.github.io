@@ -1,11 +1,10 @@
 ---
 title: Common CSS layouts in Tailwind
 description: 10 one-line layouts, meticulously reconstructed using Tailwind CSS classes
-pubDate: 2023-12-05T16:00:01Z
+pubDate: 2024-07-12T16:00:01Z
 tags: "web, frontend, coding, css, tailwind"
 image: '../images/common-css-layouts-in-tailwind.jpg'
 imgAlt: 'A css stylesheet'
-draft: true
 ---
 
 A little while ago, the Chrome team unveiled a fascinating article on [10 one-line layouts with CSS](https://web.dev/articles/one-line-layouts). It quickly became my go-to reference, but here's the twist – I discovered myself reconstructing these layouts with Tailwind every single time.
