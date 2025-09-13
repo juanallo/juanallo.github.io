@@ -192,6 +192,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"ai-to-level-up-my-elc-2025-experience.md": {
+	id: "ai-to-level-up-my-elc-2025-experience.md";
+  slug: "ai-to-level-up-my-elc-2025-experience";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "astro-themes-templates-power-next-build.md": {
 	id: "astro-themes-templates-power-next-build.md";
   slug: "astro-themes-templates-power-next-build";
