@@ -63,7 +63,7 @@
     "rehype-slug": "^6.0.0"
   },
   "volta": {
-    "node": "16.15.1"
+    "node": "20.11.0"
   },
   "author": "Juan Allo Ron"
 }

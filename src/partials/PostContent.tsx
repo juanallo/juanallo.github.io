@@ -9,6 +9,7 @@ const PostContent = (props: IPostContentProps) => {
   const showImage =
     !props.content.hideHero &&
     props.content.image &&
+    props.content.image.src &&
     !props.content.image.src.includes('defaultHero.jpg');
   return (
     <div className="mx-auto mt-5 max-w-prose">
@@ -20,6 +21,8 @@ const PostContent = (props: IPostContentProps) => {
             height={props.content.image.height}
             src={props.content.image.src}
             alt={props.content.imgAlt ?? ''}
+            loading="lazy"
+            decoding="async"
           />
         </div>
       )}

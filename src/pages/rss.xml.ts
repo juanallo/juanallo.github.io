@@ -23,6 +23,6 @@ export const get = async () => {
       link: `/post/${post.slug}/`,
     })),
     // (optional) inject custom xml
-    customData: `<language>en-us</language>`,
+    customData: `<language>en-us</language><lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
   });
 };

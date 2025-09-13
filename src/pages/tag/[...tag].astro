@@ -21,9 +21,8 @@ const title = `${tag} posts${titleSuffix}`;
 const description = `${tag} posts by Juan Manuel Allo Ron`;
 
 const posts = (await getPublished()).filter((post) => {
-  return (
-    post.data.tags && post.data.tags.toLowerCase().includes(tag.toLowerCase())
-  );
+  const tokens = post.data.tags.split(',').map((t) => t.trim().toLowerCase());
+  return tokens.includes(tag.toLowerCase());
 });
 ---
 

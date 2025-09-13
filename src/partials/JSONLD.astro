@@ -3,31 +3,30 @@ import avatar from '@/images/avatar.png';
 import { AppConfig } from '@/utils/AppConfig';
 
 const {
-  data: { title, description, image, pubDate },
+  data: { title, description, image, pubDate, tags },
+  url,
 } = Astro.props;
 
-const finalImage = image ? image.src : avatar.src;
+const finalImage = image?.src ? image.src : avatar.src;
 
 const schema = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  '@type': 'BlogPosting',
   headline: title,
-  image: finalImage,
+  image: AppConfig.base_path + finalImage,
   description,
-  // "keywords": tags.join(' '),
+  inLanguage: AppConfig.locale,
   author: {
     '@type': 'Person',
     name: AppConfig.author,
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://google.com/article',
+    '@id': AppConfig.base_path + url,
   },
+  datePublished: pubDate,
+  keywords: Array.isArray(tags) ? tags.join(', ') : tags,
 };
-
-if (pubDate) {
-  schema.datePublished = pubDate;
-}
 ---
 
 <script type='application/ld+json' set:html={JSON.stringify(schema)}>

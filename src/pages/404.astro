@@ -1,0 +1,38 @@
+---
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+---
+
+<Base
+  head={{
+    title: `Page Not Found - ${AppConfig.site_name}`,
+    description: 'The page you are looking for could not be found.',
+    noindex: true,
+  }}
+>
+  <div class='flex min-h-[60vh] items-center justify-center'>
+    <div class='mx-auto max-w-md px-4 text-center'>
+      <h1 class='mb-4 text-6xl font-bold text-blue-600'>404</h1>
+      <h2 class='mb-4 text-2xl font-semibold'>Page Not Found</h2>
+      <p class='mb-8 text-gray-400'>
+        The page you are looking for could not be found. It might have been
+        moved, deleted, or you entered the wrong URL.
+      </p>
+      <div class='space-y-4'>
+        <a
+          href='/'
+          class='inline-block rounded-lg bg-blue-600 px-6 py-3 text-white transition-colors hover:bg-blue-700'
+        >
+          Go Home
+        </a>
+        <div class='text-sm text-gray-500'>
+          or <a
+            href='/posts/'
+            class='text-blue-400 underline hover:text-blue-300'
+            >browse all posts
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
