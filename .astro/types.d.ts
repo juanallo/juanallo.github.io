@@ -192,6 +192,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"ai-front-end-digest-week-2025-10-27.md": {
+	id: "ai-front-end-digest-week-2025-10-27.md";
+  slug: "ai-front-end-digest-week-2025-10-27";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ai-to-level-up-my-elc-2025-experience.md": {
 	id: "ai-to-level-up-my-elc-2025-experience.md";
   slug: "ai-to-level-up-my-elc-2025-experience";
