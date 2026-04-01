@@ -332,6 +332,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"learnings-from-using-spec-kit-for-vibe-coding.md": {
+	id: "learnings-from-using-spec-kit-for-vibe-coding.md";
+  slug: "learnings-from-using-spec-kit-for-vibe-coding";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "microinteractions.md": {
 	id: "microinteractions.md";
   slug: "microinteractions";
