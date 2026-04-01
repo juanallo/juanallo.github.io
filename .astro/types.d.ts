@@ -227,6 +227,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"claude-skills-as-my-personal-content-pipeline.md": {
+	id: "claude-skills-as-my-personal-content-pipeline.md";
+  slug: "claude-skills-as-my-personal-content-pipeline";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "common-css-layouts-in-tailwind.md": {
 	id: "common-css-layouts-in-tailwind.md";
   slug: "common-css-layouts-in-tailwind";
