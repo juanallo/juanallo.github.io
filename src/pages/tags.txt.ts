@@ -1,7 +1,7 @@
 import { getPublished } from '@/utils/Posts';
 import { getAllTagsFromPosts, slugify } from '@/utils/tags';
 
-export const get = async () => {
+export const GET = async () => {
   const posts = await getPublished();
 
   const tags = getAllTagsFromPosts(posts).map((tag) => slugify(tag));

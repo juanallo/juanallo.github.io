@@ -3,7 +3,7 @@ import rss from '@astrojs/rss';
 import { AppConfig } from '@/utils/AppConfig';
 import { getPublished } from '@/utils/Posts';
 
-export const get = async () => {
+export const GET = async () => {
   const posts = await getPublished();
   return rss({
     // `<title>` field in output xml

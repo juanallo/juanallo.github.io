@@ -360,6 +360,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"my-current-ai-workflow-for-building-apps.md": {
+	id: "my-current-ai-workflow-for-building-apps.md";
+  slug: "my-current-ai-workflow-for-building-apps";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "near-fittss-law.md": {
 	id: "near-fittss-law.md";
   slug: "near-fittss-law";
