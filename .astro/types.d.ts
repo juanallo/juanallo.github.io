@@ -402,6 +402,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"six-hats-decision-debate-skill.md": {
+	id: "six-hats-decision-debate-skill.md";
+  slug: "six-hats-decision-debate-skill";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "starting-a-new-trip.md": {
 	id: "starting-a-new-trip.md";
   slug: "starting-a-new-trip";
