@@ -33,7 +33,7 @@ When I want outside-in signal, I use [last30days](https://github.com/mvanhorn/la
 
 When I need something I can trust more, I use [deep-research](https://github.com/199-biotechnologies/claude-deep-research-skill). That is the citation-backed pass. It is where I want sources, not vibes.
 
-Then I run the output through my [six-hats skill](https://github.com/juanallo/six-hats-skill), which I wrote about in [Six Hats: A Decision Skill That Completes My AI Context Stack](/blog/six-hats-decision-debate-skill). The important part is the order:
+Then I run the output through my [six-hats skill](https://github.com/juanallo/six-hats-skill), which I wrote about in [Six Hats: A Decision Skill That Completes My AI Context Stack](/post/six-hats-decision-debate-skill/). The important part is the order:
 
 1. ChatGPT gives me quick divergence.
 2. last30days tells me what is current.
