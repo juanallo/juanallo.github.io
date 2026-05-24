@@ -542,6 +542,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"weekly-digest-13-cli-agent-fleets-and-parallel-agents.md": {
+	id: "weekly-digest-13-cli-agent-fleets-and-parallel-agents.md";
+  slug: "weekly-digest-13-cli-agent-fleets-and-parallel-agents";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "weekly-digest-2-latest-web-open-source-releases.md": {
 	id: "weekly-digest-2-latest-web-open-source-releases.md";
   slug: "weekly-digest-2-latest-web-open-source-releases";
