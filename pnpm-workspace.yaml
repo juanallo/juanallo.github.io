@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+minimumReleaseAge: 10080
+minimumReleaseAgeExclude:
+  - '@babel/*'
+minimumReleaseAgeStrict: true
+shamefullyHoist: true

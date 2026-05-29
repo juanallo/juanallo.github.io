@@ -2,7 +2,13 @@
   "name": "juanallo.github.io",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@11.0.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=11.0.0"
+  },
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "astro dev",
     "start": "npx http-server dist -g",
     "build": "astro build",
@@ -63,7 +69,7 @@
     "rehype-slug": "^6.0.0"
   },
   "volta": {
-    "node": "20.11.0"
+    "node": "22.14.0"
   },
   "author": "Juan Allo Ron"
 }
