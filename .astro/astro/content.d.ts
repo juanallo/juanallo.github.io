@@ -150,7 +150,58 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"posts": {
+		"music": {
+"human-in-the-loop.md": {
+	id: "human-in-the-loop.md";
+  slug: "human-in-the-loop";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"it-worked-on-my-machine.md": {
+	id: "it-worked-on-my-machine.md";
+  slug: "it-worked-on-my-machine";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"legacy-code-blues.md": {
+	id: "legacy-code-blues.md";
+  slug: "legacy-code-blues";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"monolith-vs-microservices.md": {
+	id: "monolith-vs-microservices.md";
+  slug: "monolith-vs-microservices";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"pipeline-to-production.md": {
+	id: "pipeline-to-production.md";
+  slug: "pipeline-to-production";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"scope-creep.md": {
+	id: "scope-creep.md";
+  slug: "scope-creep";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"spaghetti-code-symphony.md": {
+	id: "spaghetti-code-symphony.md";
+  slug: "spaghetti-code-symphony";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+};
+"posts": {
 "7-days-of-js-by-chapgpt.md": {
 	id: "7-days-of-js-by-chapgpt.md";
   slug: "7-days-of-js-by-chapgpt";

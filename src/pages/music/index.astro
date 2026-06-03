@@ -1,0 +1,38 @@
+---
+import { GradientText, Section } from 'astro-boilerplate-components';
+
+import Music from '@/layouts/Music.astro';
+import MusicCard from '@/partials/MusicCard.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { getPublishedMusic } from '@/utils/Music';
+
+const tracks = await getPublishedMusic();
+const title = `Music - ${AppConfig.site_name}`;
+const description =
+  "AI-generated tracks I've been experimenting with.";
+---
+
+<Music head={{ title, description, url: '/music/' }}>
+  <Section>
+    <div class="mb-6 text-center">
+      <h1 class="text-3xl font-bold">
+        <GradientText>Music</GradientText>
+      </h1>
+      <p class="mt-3 text-base text-slate-300">{description}</p>
+    </div>
+
+    {
+      tracks.length === 0 ? (
+        <p class="text-center text-slate-400">
+          Tracks coming soon. Check back later.
+        </p>
+      ) : (
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+          {tracks.map((track) => (
+            <MusicCard instance={track} />
+          ))}
+        </div>
+      )
+    }
+  </Section>
+</Music>

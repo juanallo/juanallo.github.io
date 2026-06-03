@@ -27,6 +27,7 @@ const Navbar = () => (
       <NavMenu>
         <NavMenuItem href="https://github.com/juanallo">GitHub</NavMenuItem>
         <NavMenuItem href="https://twitter.com/juan_allo">Twitter</NavMenuItem>
+        <NavMenuItem href="/music/">Music</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>

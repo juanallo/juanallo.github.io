@@ -15,6 +15,24 @@ const postsCollection = defineCollection({
       draft: z.boolean().default(false).optional(),
     }),
 });
+const musicCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    pubDate: z.date(),
+    description: z.string(),
+    poster: z.string(),
+    video: z.string(),
+    mp3: z.string(),
+    tool: z.string(),
+    order: z.number().optional(),
+    prompt: z.string().optional(),
+    tags: z.string().optional(),
+    draft: z.boolean().default(false).optional(),
+  }),
+});
+
 export const collections = {
   posts: postsCollection,
+  music: musicCollection,
 };

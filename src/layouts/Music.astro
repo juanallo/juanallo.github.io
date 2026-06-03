@@ -1,0 +1,33 @@
+---
+import { MusicPlayer } from '@/partials/MusicPlayer';
+import Base from '@/templates/Base.astro';
+import { getPublishedMusic } from '@/utils/Music';
+import { toPlayerTracks } from '@/utils/musicTracks';
+
+type HeadProps = {
+  title: string;
+  description: string;
+  url?: string;
+  imgAlt?: string;
+};
+
+export interface Props {
+  head: HeadProps;
+  activeSlug?: string;
+}
+
+const { head, activeSlug } = Astro.props;
+const tracks = toPlayerTracks(await getPublishedMusic());
+---
+
+<Base head={head}>
+  <div class='pb-24'>
+    <slot></slot>
+  </div>
+  <MusicPlayer
+    client:load
+    transition:persist='music-player'
+    tracks={tracks}
+    activeSlug={activeSlug ?? null}
+  />
+</Base>

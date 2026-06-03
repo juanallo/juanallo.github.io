@@ -1,9 +1,16 @@
-const { transpileModule } = require("typescript");
-
 module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
-  semi: true
+  semi: true,
+  plugins: ['prettier-plugin-astro'],
+  overrides: [
+    {
+      files: '*.astro',
+      options: {
+        parser: 'astro',
+      },
+    },
+  ],
 };

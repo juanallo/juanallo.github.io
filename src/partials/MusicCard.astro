@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { format } from 'date-fns';
+
+import { MusicCardStatus } from '@/partials/MusicCardStatus';
+import { MusicPlayButton } from '@/partials/MusicPlayButton';
+
+export interface Props {
+  instance: CollectionEntry<'music'>;
+}
+
+const { instance } = Astro.props;
+const { slug, data } = instance;
+---
+
+<article class="h-full overflow-hidden rounded-md bg-slate-800 hover:translate-y-1">
+  <div class="relative aspect-[3/2] overflow-hidden bg-slate-700">
+    <img
+      class="size-full object-cover object-center"
+      src={data.poster}
+      alt={data.title}
+      loading="lazy"
+      width="600"
+      height="600"
+    />
+    <MusicPlayButton client:load slug={slug} title={data.title} />
+  </div>
+
+  <div class="px-3 pb-6 pt-4 text-center">
+    <h2 class="text-xl font-semibold">
+      <a href={`/music/${slug}/`} class="hover:underline">{data.title}</a>
+    </h2>
+
+    <div class="mt-1 text-xs text-gray-400">
+      {format(new Date(data.pubDate), 'LLL d, yyyy')} · {data.tool}
+    </div>
+
+    <p class="mt-2 text-sm">{data.description}</p>
+    <MusicCardStatus client:load slug={slug} />
+  </div>
+</article>

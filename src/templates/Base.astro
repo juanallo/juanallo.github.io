@@ -1,6 +1,7 @@
 ---
 import './base.css';
 
+import { ViewTransitions } from 'astro:transitions';
 import avatar from '@/images/avatar.png';
 import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
@@ -23,6 +24,7 @@ const ogType = pubDate ? 'article' : 'website';
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <ViewTransitions />
     <title>{title}</title>
     <meta name='theme-color' content='#111827' />
     <link rel='alternate' type='application/rss+xml' href='/rss.xml' />

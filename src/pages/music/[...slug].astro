@@ -1,0 +1,93 @@
+---
+import { GradientText, Section } from 'astro-boilerplate-components';
+import { format } from 'date-fns';
+
+import Music from '@/layouts/Music.astro';
+import { MusicPlayButton } from '@/partials/MusicPlayButton';
+import { AppConfig } from '@/utils/AppConfig';
+import { getPublishedMusic } from '@/utils/Music';
+
+export async function getStaticPaths() {
+  const tracks = await getPublishedMusic();
+  return tracks.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data, slug } = entry;
+const tags = data.tags
+  ? data.tags.split(', ').map((tag) => tag.trim()).filter(Boolean)
+  : [];
+
+const title = `${data.title} - ${AppConfig.site_name}`;
+const mp3Filename = data.mp3.split('/').pop() ?? 'track.mp3';
+---
+
+<Music head={{ title, description: data.description, url: `/music/${slug}/`, imgAlt: data.title }} activeSlug={slug}>
+  <Section>
+    <article class="mx-auto max-w-4xl">
+      <header class="mb-8 text-center">
+        <h1 class="text-3xl font-bold">
+          <GradientText>{data.title}</GradientText>
+        </h1>
+        <p class="mt-2 text-sm text-slate-400">
+          {format(new Date(data.pubDate), 'LLL d, yyyy')} · {data.tool}
+        </p>
+        <p class="mt-4 text-base text-slate-300">{data.description}</p>
+      </header>
+
+      <video
+        class="w-full rounded-md bg-black"
+        controls
+        preload="metadata"
+        poster={data.poster}
+        playsinline
+      >
+        <source src={data.video} type="video/mp4" />
+        Your browser does not support embedded video.
+      </video>
+
+      <div class="mt-6 flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <MusicPlayButton client:load slug={slug} title={data.title} variant="inline" />
+          <a
+          href={data.mp3}
+          download={mp3Filename}
+          class="inline-flex items-center rounded-md bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-cyan-400"
+        >
+          Download MP3
+        </a>
+       
+        </div>
+        <a href="/music/" class="text-sm text-slate-400 hover:text-cyan-400">
+          ← Back to all tracks
+        </a>
+      </div>
+
+      {
+        data.prompt && (
+          <section class="mt-8 rounded-md bg-slate-800 p-4">
+            <h2 class="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-400">
+              Prompt
+            </h2>
+            <p class="whitespace-pre-wrap text-sm text-slate-200">{data.prompt}</p>
+          </section>
+        )
+      }
+
+      {
+        tags.length > 0 && (
+          <div class="mt-6 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <span class="rounded-md bg-slate-700 px-2 py-1 text-xs font-semibold text-slate-200">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )
+      }
+    </article>
+  </Section>
+</Music>
