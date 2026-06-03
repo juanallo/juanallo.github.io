@@ -8,7 +8,7 @@ imgAlt: "Poster art for Human in the Loop, the opening track of the SDLC song cy
 draft: false
 ---
 
-A while back I [taught LLMs to play the drums](/blog/teaching-llms-to-play-the-drums/) with a keyboard notation and a little browser player. That experiment was about *notation*. Could a model follow a tight format and still feel musical?
+A while back I [taught LLMs to play the drums](/post/teaching-llms-to-play-the-drums/) with a keyboard notation and a little browser player. That experiment was about *notation*. Could a model follow a tight format and still feel musical?
 
 This one is different. I wanted full songs: lyrics, genre, mood, and production. The joke was simple: what if each phase of the software delivery lifecycle had its own track and each track sounded like the phase *felt*?
 

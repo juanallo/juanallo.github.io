@@ -79,7 +79,7 @@ A few things I wasn't expecting:
 
 - **Sequential beats parallel.** I tried running the hats in parallel first to save time. The debate quality collapsed — each hat needs to see the previous ones to actually engage. The skill enforces sequential order on purpose.
 - **Don't let Blue Hat debate.** Early versions had Blue Hat chiming in during rounds. It poisoned the debate — the moderator can't also be a player. Now Blue Hat only shows up at the end.
-- **Write the output to disk, every time.** Same lesson as my [content pipeline post](/blog/claude-skills-as-my-personal-content-pipeline) — if it's not a file in the vault, it didn't happen. The skill always writes `debate-{timestamp}.md` to the path you specify.
+- **Write the output to disk, every time.** Same lesson as my [content pipeline post](/post/claude-skills-as-my-personal-content-pipeline/) — if it's not a file in the vault, it didn't happen. The skill always writes `debate-{timestamp}.md` to the path you specify.
 - **Composability is the point.** Six-hats is small on purpose. It doesn't do research, it doesn't grill, it doesn't manage projects. It does *one* thing — structured opposing debate ending in a recommendation — so it can plug into whatever pipeline I'm in this week.
 
 ## Try it
