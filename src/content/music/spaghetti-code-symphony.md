@@ -5,7 +5,7 @@ description: "Implementation — progressive metal for the duct-tape masterpiece
 poster: "/music/spaghetti-code-symphony-poster.jpg"
 video: "/music/spaghetti-code-symphony.mp4"
 mp3: "/music/spaghetti-code-symphony.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 4
 tags: "sdlc, implementation, progressive metal, developer-life"
 draft: false

@@ -5,7 +5,7 @@ description: "Deployment — cinematic techno for the merge that has to land bef
 poster: "/music/pipeline-to-production-poster.jpg"
 video: "/music/pipeline-to-production.mp4"
 mp3: "/music/pipeline-to-production.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 6
 tags: "sdlc, deployment, techno, developer-life"
 draft: false

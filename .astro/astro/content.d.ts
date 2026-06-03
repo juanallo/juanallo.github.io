@@ -426,6 +426,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"sdlc-song-cycle-ai-music-on-the-blog.md": {
+	id: "sdlc-song-cycle-ai-music-on-the-blog.md";
+  slug: "sdlc-song-cycle-ai-music-on-the-blog";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "six-hats-decision-debate-skill.md": {
 	id: "six-hats-decision-debate-skill.md";
   slug: "six-hats-decision-debate-skill";

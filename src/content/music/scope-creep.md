@@ -5,7 +5,7 @@ description: "Planning & Analysis — indie rock about the feature that was “j
 poster: "/music/scope-creep-poster.jpg"
 video: "/music/scope-creep.mp4"
 mp3: "/music/scope-creep.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 2
 tags: "sdlc, planning, indie rock, developer-life"
 draft: false

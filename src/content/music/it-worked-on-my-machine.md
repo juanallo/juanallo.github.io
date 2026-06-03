@@ -5,7 +5,7 @@ description: "Testing & Integration — pop-punk anthem for green locally, red i
 poster: "/music/it-worked-on-my-machine-poster.jpg"
 video: "/music/it-worked-on-my-machine.mp4"
 mp3: "/music/it-worked-on-my-machine.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 5
 tags: "sdlc, testing, pop-punk, developer-life"
 draft: false

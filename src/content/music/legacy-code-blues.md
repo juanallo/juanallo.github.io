@@ -5,7 +5,7 @@ description: "Maintenance — acoustic blues for the system nobody wants to touc
 poster: "/music/legacy-code-blues-poster.jpg"
 video: "/music/legacy-code-blues.mp4"
 mp3: "/music/legacy-code-blues.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 7
 tags: "sdlc, maintenance, blues, developer-life"
 draft: false

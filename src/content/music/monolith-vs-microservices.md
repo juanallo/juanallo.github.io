@@ -5,7 +5,7 @@ description: "Design & Architecture — synthwave rap battle over how to split t
 poster: "/music/monolith-vs-microservices-poster.jpg"
 video: "/music/monolith-vs-microservices.mp4"
 mp3: "/music/monolith-vs-microservices.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 3
 tags: "sdlc, architecture, synthwave, rap, developer-life"
 draft: false

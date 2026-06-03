@@ -5,7 +5,7 @@ description: "When automation meets judgment—the person still in the chain."
 poster: "/music/human-in-the-loop-poster.jpg"
 video: "/music/human-in-the-loop.mp4"
 mp3: "/music/human-in-the-loop.mp3"
-tool: "Suno"
+tool: "Gemini"
 order: 1
 tags: "sdlc, ai, developer-life"
 draft: false
