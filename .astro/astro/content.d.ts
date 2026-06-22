@@ -440,6 +440,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"solstice-vigil-solo-rpg-gemma-4-in-your-browser.md": {
+	id: "solstice-vigil-solo-rpg-gemma-4-in-your-browser.md";
+  slug: "solstice-vigil-solo-rpg-gemma-4-in-your-browser";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "starting-a-new-trip.md": {
 	id: "starting-a-new-trip.md";
   slug: "starting-a-new-trip";
